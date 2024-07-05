@@ -1,0 +1,66 @@
+#!name= 喜马拉雅修改
+#!desc= 去广告、修改会员标识（完全自慰）、限时破解会员
+#!update= 2024-05-16
+#!author= MartinsKing
+#!category= MK
+
+[General]
+# DNS劫持
+hijack-dns = %APPEND% 114.114.114.114 
+
+[Rule]
+DOMAIN,gslbali.ximalaya.com,REJECT
+DOMAIN,gslbtx.ximalaya.com,REJECT
+
+[URL Rewrite]
+^https?:\/\/xdcs-collector(hera)?\.ximalaya\.com\/(api|nyx)\/v1 - reject
+#播放页Live
+^https?:\/\/.*\.ximalaya\.com\/mobile-playpage\/view\/ - reject
+#MyInfo红点提醒
+^https?:\/\/.*\.ximalaya\.com\/chaos-notice-web\/v1\/message\/preview\/list - reject
+#大红包Tips
+^https?:\/\/.*\.ximalaya\.com\/social-web\/bottomTabs\/dynamicEntrance\/status - reject
+#屏蔽gif弹窗Ad
+^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$ - reject
+#屏蔽Aged请求
+^https?:\/\/.*\.ximalaya\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) - reject
+#部分Tab弹窗
+^https?:\/\/.*\.ximalaya\.com\/discovery-feed\/isShowUserGiftPendant - reject
+#屏蔽消息红点提示
+^https?:\/\/.*\.ximalaya\.com\/mobile-user\/unread - reject
+#屏蔽minor请求
+^https?:\/\/.*\.ximalaya\.com\/mobile-user\/minorProtection\/pop - reject
+#屏蔽隐私搜集
+^https?:\/\/.*\.ximalaya\.com\/collector\/xl\/v\d - reject
+#屏蔽版本更新
+^https?:\/\/.*\.ximalaya\.com\/butler-portal\/versionCheck - reject
+#屏蔽开屏广告
+^https?:\/\/(adse\.wsa|adse|adbehavior)\.ximalaya\.com\/.* - reject
+#屏蔽位置请求
+^https?:\/\/.*\.ximalaya\.com\/mobile\/discovery\/v\d\/location - reject
+#屏蔽实时Ad请求
+^https?:\/\/.*\.ximalaya\.com\/api\/v\d\/adRealTime - reject
+#屏蔽ting_Ad
+^https?:\/\/.*\.ximalaya\.com\/ting\/(loading|feed|home)? - reject
+#修复轮播Ad失效Bug
+^https?:\/\/.*\.ximalaya\.com\/discovery-feed\/focus\/queryF - reject
+^https?:\/\.*linkeye-cloud\/checkIP - reject
+^https?:\/\/www\.taobao\.com\/help\/getip\.php - reject
+^https?:\/\.*audid-api\.taobao\.com - reject
+^https?:\/\/passport(ws)?\.ximalaya\.com\/user-http-app\/v1\/token\/refresh - reject
+
+[Script]
+专辑音频 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(mobile(hera)?|m(ob)?wsa|m)\.ximalaya\.com\/mobile(-user\/v\d\/homePage|-playpage\/(track\/v\d\/baseInfo|playpage\/(tabs\/v\d|recommend(\/resource\/allocation|ContentV\d)))|\/(album\/paid\/info|playlist\/album\/new)|\/v\d\/album\/track),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly.js
+
+会员页 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(mobile(hera)?|m(ob)?wsa|m)\.ximalaya\.com\/business-vip-(presale-mobile-web\/page|level-h5-web\/api\/(gift\/detail|profile)|welfare-mobile-web\/welfare\/module\/exclusive\/list),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly.js
+
+发现页 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(mobile(hera)?|m(ob)?wsa|m)\.ximalaya\.com\/discovery-(category\/customCategories|feed\/v\d\/(freeListenTab\/queryCardList|mix)|ranking-web\/v\d\/ranking\/concreteRankList),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly.js
+
+杂项 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(mobile(hera)?|m(ob)?wsa|m)\.ximalaya\.com\/(browsing-history-business\/browsing\/history\/query|focus-mobile\/focusPic\/info|nyx\/history\/query\/(detail|id\/list)|product\/detail\/v\d\/basicInfo\/dynamic|subscribe\/v\d\/subscribe\/comprehensive\/rank|vip\/(feed\/v1\/mix|v\d\/recommand)),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly.js
+
+搜索推荐 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/search(wsa)?\.ximalaya\.com\/(hub\/)?(guideWordV\d|hotWord(V\d|Billboard\/card)),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly.js
+
+解锁会员 = type=http-request,requires-body=0,max-size=0,pattern=^https?:\/\/(mobile(hera)?|m(ob)?wsa)\.ximalaya\.com\/(mobile-playpage\/track|mobile\/quickplay),script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/XMLY/xmly_ck.js
+
+[MITM]
+hostname = %APPEND% *.ximalaya.com, 47.100.227.85, 61.164.145.12, 61.172.194.185, 61.172.194.186, 106.41.204.126, 112.80.180.72, 112.98.170.228, 112.99.146.108, 114.80.99.*, 118.25.119.177, 180.153.140.*, 180.153.250.*, 180.153.255.*
