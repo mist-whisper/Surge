@@ -1,0 +1,62 @@
+#!name=Soul去广告
+#!desc=移除开屏广告、移除话题页面热Soul话题、移除评论区礼物榜、移除更新提示、移除青少年弹窗、移除我的页面推广、移除悬浮部件。
+#!author=ZenmoFeiShi RuCu6 可莉🅥
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Soul.png
+#!openUrl=https://apps.apple.com/app/id1032287195
+#!homepage=https://gitlab.com/lodepuly/vpn_tool//tree/master/Tool/Loon/Plugin
+#!date=2024-06-16 20:23:01
+
+[Rule]
+# 地理位置 - 影响注册账号时的属地判断
+DOMAIN-SUFFIX,soulapp.cn,DIRECT
+IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
+IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
+# 广告下发
+DOMAIN,ad-h5-cdn.soulapp.cn,REJECT
+DOMAIN,ad-h5-station-cdn.soulapp.cn,REJECT
+DOMAIN,ad-r.soulapp.cn,REJECT
+DOMAIN,soul-ad.soulapp.cn,REJECT
+# 广告域名IP查询
+IP-CIDR,47.56.131.76/32,REJECT,no-resolve
+IP-CIDR,47.97.215.55/32,REJECT,no-resolve
+IP-CIDR,47.99.42.29/32,REJECT,no-resolve
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+IP-CIDR,47.243.147.125/32,REJECT,no-resolve
+IP-CIDR,120.27.235.201/32,REJECT,no-resolve
+IP-CIDR,121.196.197.147/32,REJECT,no-resolve
+
+[Map Local]
+# 开屏广告
+^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}" status-code=200
+
+^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 data-type=text data=" " status-code=200
+
+[Script]
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v2\/post\/recSquare\/subTabs, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/homepage\/diamond\/position\/info, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% 47.110.187.87, api-a.soulapp.cn, api-account.soulapp.cn, api-chat.soulapp.cn, api-user.soulapp.cn, chat-live.soulapp.cn, gateway-mobile-gray.soulapp.cn, post.soulapp.cn, ssp.soulapp.cn
