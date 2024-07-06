@@ -1,6 +1,10 @@
 #!name=节假日信息
 #!desc=显示节假日的信息
-#!system=ios
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Panel_Timecard.sgmodule
+#!icon = 
+#!date = 2024-07-06 20:05:57
 
 [Panel]
 Timecard = script-name=Timecard,update-interval=3600
