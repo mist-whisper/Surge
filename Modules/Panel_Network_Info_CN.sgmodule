@@ -5,6 +5,7 @@
 #!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Panel_Network_Info_CN.sgmodule
 #!icon = 
 #!date = 2023.03.25 20:05:57
+#!category = 面板模块
 
 [Panel]
 NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
