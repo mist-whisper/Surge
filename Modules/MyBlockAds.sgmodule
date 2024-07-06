@@ -1,4 +1,4 @@
-##!name = MyBlockAds
+#!name = MyBlockAds
 #!desc = 去广告合集，屏蔽微信公众号底部广告，以下APP需要使用单独配置文件：高德地图，哔哩哔哩，网易云音乐，微博，YouTube，知乎
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = RuCu6
