@@ -1,6 +1,11 @@
-#!name=美团
-#!desc=去除美团广告
-#!system=ios
+#!name = 美团
+#!desc = 去除美团广告
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Meituan_remove_ads.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
+
 [Rule]
 URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4),REJECT
 [MITM]
