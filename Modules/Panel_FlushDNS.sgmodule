@@ -1,8 +1,10 @@
-#!name=Flush DNS
-#!desc=快速清除Surge的DNS缓存
-#!system=ios
-# 更新日期：2022.08.24
-# 版本：2.1
+#!name = Flush DNS
+#!desc = 快速清除Surge的DNS缓存
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Panel_FlushDNS.sgmodule
+#!icon = 
+#!date = 2022.08.24
 
 [Panel]
 FlushDNS = script-name=FlushDNS,update-interval=600
