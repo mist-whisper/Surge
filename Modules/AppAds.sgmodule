@@ -1,8 +1,10 @@
-#!name=App/小程序-AD净化
-#!desc=去一些App/小程序的广告！
+#!name=App/小程序广告净化
+#!desc=去一些App/小程序的广告
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = chxm1023
-#!homepage = https://github.com/chxm1023/Script_X/blob/main/README.md
-#!url=https://raw.githubusercontent.com/chxm1023/Advertising/Shadowrocket/AppAd.sgmodule
+#!homepage = https://raw.githubusercontent.com/chxm1023/Advertising/Shadowrocket/AppAd.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
 
 [URL Rewrite]
 ########## App去广告 ##########
