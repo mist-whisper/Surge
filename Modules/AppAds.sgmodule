@@ -5,6 +5,7 @@
 #!homepage = https://raw.githubusercontent.com/chxm1023/Advertising/Shadowrocket/AppAd.sgmodule
 #!icon = 
 #!date = 2022-07-06 20:05:57
+#!category = 去广告
 
 [URL Rewrite]
 ########## App去广告 ##########
