@@ -1,6 +1,11 @@
-#!name=墨鱼去开屏𝐕𝟐.𝟎
-#!desc=去除APP首页启动广告和部分应用内广告
-#!category=墨鱼去广告
+#!name = 墨鱼去开屏𝐕𝟐.𝟎
+#!desc = 去除APP首页启动广告和部分应用内广告
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = ddgksf2013
+#!homepage = https://github.com/ddgksf2013/Rewrite/blob/master/AdBlock/StartUp.conf
+#!icon = 
+#!date = 2024-07-06 20:05:57
+#!category = 墨鱼去广告
 
 [URL Rewrite]
 # > kanlixiang
