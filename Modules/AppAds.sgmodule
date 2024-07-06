@@ -1,5 +1,5 @@
-#!name=App/小程序广告净化
-#!desc=去一些App/小程序的广告
+#!name = App/小程序广告净化
+#!desc = 去一些App/小程序的广告
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = chxm1023
 #!homepage = https://raw.githubusercontent.com/chxm1023/Advertising/Shadowrocket/AppAd.sgmodule
