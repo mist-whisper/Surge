@@ -5,9 +5,9 @@
 #!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Sub-info.sgmodule
 #!icon = 
 #!date = 2024-07-04 20:05:57
+#!category = 面板模块
 #!arguments = NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,NAME_4:#第四个机场的名字,URL_4:编码后的机场订阅,RESET-Day_4:重置日期
 #!arguments-desc = [参数设置]\n\n⓵ NAME: 写你机场的名字,默认开启单订阅。\n\n⓶ URL: 编码后的机场订阅。\n\n⓷ RESET_DAY: 流量每月重置的日期,如26号就写26,不设置则不显示流量重置日,仅显示到期日期。
-#!category = 机场流量信息
 
 [Panel]
 {{{NAME_1}}}=script-name={{{NAME_1}}},update-interval=3600
