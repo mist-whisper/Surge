@@ -1,6 +1,10 @@
-#!name=Google Rewrite
-#!desc=Safari 谷歌搜索重定向（Surge）
-#!system=ios
+#!name = Google Rewrite
+#!desc = 谷歌重定向
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Google_Rewrite.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
