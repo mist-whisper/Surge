@@ -1,9 +1,10 @@
-#!name=可莉广告过滤器
-#!desc=可莉自用的广告过滤器
-#!author=可莉🅥
-#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/KeLee.png
-#!homepage=https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
-#!date=2024-06-30 03:21:55
+#!name = 可莉广告过滤器
+#!desc = 可莉自用的广告过滤器
+#!openUrl = https://github.com/mist-whisper/Loon/tree/master/Plugins
+#!author = 可莉🅥
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/KeLee.png
+#!date = 2024-07-05 15:56:44
 
 [Rule]
 # 广告联盟放行
