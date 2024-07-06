@@ -1,10 +1,10 @@
-#!name=高德地图去广告
-#!desc=过滤高德地图广告
-#!author=RuCu6 kokoryh
-#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Amap.png
-#!openUrl=https://github.com/mist-whisper/Loon/tree/master/Plugins
-#!homepage=https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
-#!date=2024-06-11 20:25:57
+#!name = 高德地图去广告
+#!desc = 过滤高德地图广告
+#!openUrl = https://apps.apple.com/app/id461703208
+#!author = RuCu6 kokoryh
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Amap.png
+#!date = 2024-06-11 20:25:57
 
 [Rule]
 DOMAIN,amap-aos-info-nogw.amap.com,REJECT
