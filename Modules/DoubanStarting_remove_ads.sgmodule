@@ -1,0 +1,13 @@
+#!name = 豆瓣去开屏广告
+#!desc = 去除豆瓣开屏广告，只能去除开屏，后期还要改duration
+#!openUrl = https://apps.apple.com/app/id907002334
+#!author = honue
+#!homepage = https://github.com/honue/rules
+#!icon = https://raw.githubusercontent.com/honue/rules/master/img/douban.png
+#!date = 2023-12-21 01:28:12
+
+[URL Rewrite]
+^https?:\/\/api\.douban\.com\/v2\/app_ads.+ - reject
+
+[MITM]
+hostname = %APPEND% api.douban.com
