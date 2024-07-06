@@ -1,0 +1,14 @@
+#!name = DNSPod-DoH
+#!desc = 使用腾讯DNS-over-HTTPS (DoH)
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/DNS-DoH.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
+
+[General]
+dns-server = 119.29.29.29, 223.5.5.5
+encrypted-dns-server = https://doh.pub/dns-query
+
+[Host]
+miwifi.com = 192.168.31.1
