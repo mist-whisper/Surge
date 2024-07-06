@@ -1,6 +1,10 @@
-#!name=去广告集合
-#!desc=转换自其他大佬规则
-#感谢张军等各位大佬写的规则因为从张军规则转换过来不清楚其他大佬是谁在这里感谢各位大佬的付出
+#!name = 去广告集合
+#!desc = 转换自其他大佬规则，感谢张军等各位大佬写的规则，因为从张军规则转换过来不清楚其他大佬是谁，在这里感谢各位大佬的付出
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/app2smile/rules
+#!icon = 
+#!date = 2022-07-06 20:05:57
 
 [Url Rewrite]
 
