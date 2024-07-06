@@ -1,6 +1,11 @@
-#!name=菜鸟裹裹去广告
-#!desc=菜鸟[菜鸟裹裹](支付宝小程序)净化[墨鱼版]
-#!category=墨鱼去广告
+#!name = 菜鸟去广告
+#!desc = 菜鸟(支付宝小程序)净化[墨鱼版]
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = ddgksf2013
+#!homepage = https://github.com/ddgksf2013/Rewrite/blob/master/AdBlock/Cainiao.conf
+#!icon = 
+#!date = 2024-03-20 20:05:57
+#!category = 墨鱼去广告
 
 [Map Local]
 # > 菜鸟裹裹_通用广告请求@ddgksf2013
