@@ -1,6 +1,11 @@
-#!name=当前汇率
-#!desc=汇率面板
-#!homepage=https://whatshub.top
+#!name = 当前汇率
+#!desc = 汇率面板
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author =
+#!homepage = https://whatshub.top
+#!icon = 
+#!date = 2024-07-06 20:05:57
+
 [Panel]
 当前汇率=script-name=当前汇率
 [Script]
