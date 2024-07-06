@@ -1,6 +1,11 @@
-#!name=流媒体检测
-#!desc=流媒体检测面板
-#!homepage=https://whatshub.top
+#!name = 流媒体检测
+#!desc = 流媒体检测面板
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://whatshub.top
+#!icon = 
+#!date = 2024-07-06 20:05:57
+
 [Panel]
 流媒体检测 = script-name=流媒体检测
 [Script]
