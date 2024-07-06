@@ -5,6 +5,7 @@
 #!homepage = https://github.com/honue/rules
 #!icon = https://raw.githubusercontent.com/honue/rules/master/img/douban.png
 #!date = 2023-12-21 01:28:12
+#!category = 去广告
 
 [URL Rewrite]
 ^https?:\/\/api\.douban\.com\/v2\/app_ads.+ - reject
