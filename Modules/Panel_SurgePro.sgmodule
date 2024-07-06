@@ -1,8 +1,10 @@
-#!name=Surge Pro
-#!desc=显示Surge的启动时间
-#!system=ios
-# 更新日期：2022.06.15
-# 版本：1.5
+#!name = Surge Pro
+#!desc = 显示Surge的启动时间
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Panel_SurgePro.sgmodule
+#!icon = 
+#!date = 2022.06.15 20:05:57
 
 [Panel]
 #Surge Pro
