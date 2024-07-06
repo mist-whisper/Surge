@@ -1,6 +1,10 @@
-#!name=Bilibili增强(白色B站)
-#!desc=拜托，没有广告的哔哩哔哩真的超酷的
-#!category=Enhance
+#!name = Bilibili增强(白色B站)
+#!desc = 拜托，没有广告的哔哩哔哩真的超酷的
+#!openUrl = https://apps.apple.com/app/id1517062289
+#!author = Edward
+#!homepage = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!icon = https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1058.png
+#!date = 2022-07-06 20:05:57
 
 [URL Rewrite]
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords - reject
