@@ -5,6 +5,7 @@
 #!homepage = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!icon = https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1058.png
 #!date = 2022-07-06 20:05:57
+#!category = 去广告
 
 [URL Rewrite]
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords - reject
