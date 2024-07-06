@@ -1,5 +1,10 @@
-#!name=Disney+评分
-#!desc=Disney+剧集页显示IMDb / 烂番茄 / 豆瓣评分
+#!name = Disney+评分
+#!desc = Disney+剧集页显示IMDb / 烂番茄 / 豆瓣评分
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 🐻 NobyDa
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/DisneyPlusRating.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
 #!arguments=脚本引擎:jsc,调试模式:0
 #!arguments-desc=脚本引擎：jsc/webview/auto，默认jsc。\n\n调试模式：1/0，开启/关闭。
 #!category=🐻 NobyDa
