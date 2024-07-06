@@ -1,9 +1,13 @@
-#!name=面板-节点信息
-#!desc=展示节点的IP/运营商/所在地
-#!category=面板模块
-#!system=ios
+#!name = 面板-节点信息
+#!desc = 展示节点的IP/运营商/所在地
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/IP-info.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
 #!arguments=API序号:1
 #!arguments-desc=\n⚙️API序号\n\n1.ip-api.com\n2.ipinfo.io\n3.ipleak.net\n4.ip.sb
+#!category = 面板模块
 
 [Panel]
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
