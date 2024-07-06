@@ -1,10 +1,11 @@
-#!name=APP启动页去广告
-#!desc=APP启动页去广告融合版
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-#!homepage=https://whatshub.top
-#!author=ddgksf2013
-# 融合：通用开屏，高德地图，微信小程序，B站，菜鸟裹裹，bing,keep style,网易云，随手记，微信公众号，小红书，喜马拉雅，知乎，Pixiv，酷安，多多视频，百度地图
-# 由whatshub.top自动维护 202407050846
+#!name = APP启动页去广告融合版
+#!desc = 融合：通用开屏，高德地图，微信小程序，B站，菜鸟裹裹，bing,keep style,网易云，随手记，微信公众号，小红书，喜马拉雅，知乎，Pixiv，酷安，多多视频，百度地图
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = ddgksf2013
+#!homepage = https://whatshub.top
+#!icon = https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+#!date = 2024-07-06 20:13:52
+
 [URL Rewrite]
 ^https?:\/\/2024.07.04/v2.0.485 reject-200
 ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer reject-200
