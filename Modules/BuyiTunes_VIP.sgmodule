@@ -1,10 +1,12 @@
-#!name=𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬
-#!desc=今天也要吃果果吖
-#!unlockapplist=https://appraven.net/collection/77331175
-#!author=𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑
-#!tgchannel=https://t.me/ddgksf2021
-#!moduleUrl=https://github.com/ddgksf2013/Modules/raw/main/BuyiTunes.Vip.sgmodule
-#!howtouse=小火箭、Surge用户直接添加模块，QuantumultX用户添加重写时打开解析器
+#!name = 𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬
+#!desc = APP脚本解锁合集
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑
+#!homepage = https://github.com/ddgksf2013/Modules/raw/main/BuyiTunes.Vip.sgmodule
+#!icon = 
+#!date = 2022-07-06 21:15:57
+#!解锁列表参见 https://appraven.net/collection/77331175
+
 
 [Script]
 # ～ RevenueCat@ddgksf2013
