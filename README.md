@@ -7,7 +7,8 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 # 模块
 
 * [去广告集合](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AD.sgmodule)
-* [APP启动页去广告融合版ultra+](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdUltraPlus.sgmodule)<!-- * [广告联盟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Adsense.sgmodule) -->
+* [APP启动页去广告融合版ultra+](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdUltraPlus.sgmodule)
+  <!-- * [广告联盟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Adsense.sgmodule) -->
 * [复写去广告(严格版)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdvertisingLite.sgmodule)
 * [Ali-DoQ](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Ali-DoQ.sgmodule)
 * [高德地图去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Amap_remove_ads.sgmodule)
