@@ -5,6 +5,7 @@
 #!icon = https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1023.png
 #!homepage = https://github.com/RuCu6/QuanX/tree/main/Rewrites
 #!date = 2024-07-06 20:18:24
+#!category = 去广告
 
 [URL Rewrite]
 # 58同城 //*.58cdn.com.cn, app.58.com, pic?.ajkimg.com
