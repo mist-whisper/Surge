@@ -5,6 +5,7 @@
 #!homepage = https://whatshub.top
 #!icon = 
 #!date = 2024-07-06 20:05:57
+#!category = 面板模块
 
 [Panel]
 当前汇率=script-name=当前汇率
