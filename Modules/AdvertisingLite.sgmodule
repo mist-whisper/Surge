@@ -5,6 +5,7 @@
 #!homepage = https://github.com/blackmatrix7/ios_rule_script/blob/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule
 #!icon = 
 #!date = 2024-07-05 02:14:29
+#!category = 去广告
 #!reject=1093
 #!mitm=806
 #!force-http-engine-hosts=6
