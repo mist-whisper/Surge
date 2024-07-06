@@ -1,6 +1,10 @@
-#!name=菜鸟
-#!desc=净化
-#!system=ios
+#!name = 菜鸟净化
+#!desc = 过滤菜鸟广告
+#!openUrl = https://apps.apple.com/app/id951610982
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Cainiaoads.sgmodule
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Cainiao.png
+#!date = 2024-06-08 09:40:34
 
 [Rule]
 # Surge 必须屏蔽
