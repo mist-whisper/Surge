@@ -1,8 +1,11 @@
-#!name= 喜马拉雅修改
-#!desc= 去广告、修改会员标识（完全自慰）、限时破解会员
-#!update= 2024-05-16
-#!author= MartinsKing
-#!category= MK
+#!name = 喜马拉雅修改
+#!desc = 去广告、修改会员标识（完全自慰）、限时破解会员
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = MartinsKing
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Xmlyads.sgmodule
+#!icon = 
+#!date = 2024-05-16 20:05:57
+#!category = MK
 
 [General]
 # DNS劫持
