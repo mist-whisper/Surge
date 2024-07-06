@@ -1,12 +1,13 @@
-#!name= 网易云音乐去广告 
-#!desc= 过滤网易云音乐广告，并允许自定义界面
-#!system= ios
+#!name = 网易云音乐去广告 
+#!desc = 过滤网易云音乐广告，并允许自定义界面
+#!openUrl = https://apps.apple.com/app/id590338362
+#!author = Keywos RuCu6 kokoryh
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/NetEaseCloudMusic_remove_ads.sgmodule
+#!icon = https://raw.githubusercontent.com/Keywos/rule/main/tv/app/144px/Netease.png
+#!date = 2024-03-13 18:00:06
+#!arguments = 推荐:1,发现:1,漫游:0,动态:0,以下为首页卡片板块:--,问候语:0,每日推荐:1,推荐歌单:1,最近常听:1,音乐合伙人:1,雷达歌单:0,排行榜:0,推荐专属歌单:0,你的专属歌单:0,脚本伪vip:#
+#!arguments-desc = 将 # 改成任意名称即可开启对应脚本\n\n不隐藏为:1  隐藏为:0
 #!category= Key
-#!arguments= 推荐:1,发现:1,漫游:0,动态:0,以下为首页卡片板块:--,问候语:0,每日推荐:1,推荐歌单:1,最近常听:1,音乐合伙人:1,雷达歌单:0,排行榜:0,推荐专属歌单:0,你的专属歌单:0,脚本伪vip:#
-#!arguments-desc= 将 # 改成任意名称即可开启对应脚本\n\n不隐藏为:1  隐藏为:0
-#!date= 2024-03-13 18:00:06
-#!icon= https://raw.githubusercontent.com/Keywos/rule/main/tv/app/144px/Netease.png
-#Thank RuCu6, kokoryh 
 
 
 
