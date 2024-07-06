@@ -1,6 +1,11 @@
-#!name=微博&微博国际版净化[墨鱼版]
-#!desc=微博、微博国际版净化，现已二合一
-#!category=墨鱼去广告
+#!name = 微博&微博国际版净化[墨鱼版]
+#!desc = 微博、微博国际版净化二合一
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = ddgksf2013
+#!homepage = https://github.com/ddgksf2013/Rewrite/blob/master/AdBlock/Weibo.conf
+#!icon = 
+#!date = 2024-04-22 20:05:57
+#!category = 墨鱼去广告
 
 [URL Rewrite]
 # > 微博_应用内弹窗广告@ddgksf2013
