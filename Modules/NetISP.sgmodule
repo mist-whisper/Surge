@@ -1,11 +1,14 @@
 #!name= NetISP 面板
 #!desc= 可自定义隐藏IP段/超时
-#!system= ios
-#!category= Key
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/NetISP.sgmodule
+#!icon = 
+#!date = 2024-07-06 20:05:57
 #!arguments= script-update:-1 ,icons:globe.asia.australia, icolor:#6699FF, GPT:0 ,HideIP:1, cnTimeout:1000, usTimeout:3000,
 #!date= 2024-01-30 08:08:35
 #!arguments-desc= 入口查询超时: cnTimeout\n落地查询超时: usTimeout\n隐藏IP: HideIP \n\n开启为: 1\n关闭为: 0
-
+#!category= Key
 # @xream https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule
 
 [Script]
