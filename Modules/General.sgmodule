@@ -5,7 +5,7 @@
 #!homepage = https://github.com/VirgilClyne/GetSomeFries/blob/main/sgmodule/General.sgmodule
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
 #!date = 2022-07-06 20:05:57
-#!category = 🍟 Fries
+#!category = 优化增强
 
 [General]
 # > 跳过代理
