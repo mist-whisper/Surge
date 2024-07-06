@@ -1,5 +1,10 @@
-#!name=历史上的今天
-#!desc=Histoday面板 显示条数由count定义。若count=8 则显示8条。不填默认5条
+#!name = 历史上的今天
+#!desc = Histoday面板 显示条数由count定义 默认5条
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Panel_Histoday.sgmodule
+#!icon = 
+#!date = 2022-07-06 20:05:57
 
 [Panel]
 Histoday=script-name=Histoday
