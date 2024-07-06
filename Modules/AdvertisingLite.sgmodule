@@ -1,8 +1,10 @@
-#!name=AdvertisingLite
-#!desc=最后更新时间 2024-07-05 02:14:29
-#!author=blackmatrix7
-#!repo=https://github.com/blackmatrix7/ios_rule_script
-#!category=blackmatrix7
+#!name = AdvertisingLite
+#!desc = 复写去广告(严格版)
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = blackmatrix7
+#!homepage = https://github.com/blackmatrix7/ios_rule_script/blob/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule
+#!icon = 
+#!date = 2024-07-05 02:14:29
 #!reject=1093
 #!mitm=806
 #!force-http-engine-hosts=6
@@ -10,9 +12,6 @@
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
-
-
-
 
 [URL Rewrite]
 "^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster)" - reject
