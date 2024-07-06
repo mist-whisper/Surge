@@ -1,10 +1,11 @@
-#!name=🍟 Fries: 🌐 General Enhanced
-#!desc=(📱 iOS版) 1.添加跳过代理部分段内容 2.添加返回真实IP段内容 3.添加不可MitM的域名，防止打断连接
-#!author=VirgilClyne
-#!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-通用
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
-#!system=ios
-#!category=🍟 Fries
+#!name = 🍟 Fries: 🌐 General Enhanced
+#!desc = 1.添加跳过代理部分段内容 2.添加返回真实IP段内容 3.添加不可MitM的域名，防止打断连接
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = VirgilClyne
+#!homepage = https://github.com/VirgilClyne/GetSomeFries/blob/main/sgmodule/General.sgmodule
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
+#!date = 2022-07-06 20:05:57
+#!category = 🍟 Fries
 
 [General]
 # > 跳过代理
