@@ -1,8 +1,10 @@
-#!name=音流@osinx
-#!desc=永久解锁VIP
-#!author=osinx
-#!icon=https://raw.githubusercontent.com/osinx/Script/main/icon/streamMusic.png
-#!homepage=https://github.com/osinx/Script
+#!name = 解锁音流VIP
+#!desc = 永久解锁音流VIP
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = osinx
+#!homepage = https://github.com/osinx/Script/blob/main/vip/streamMusic.plugin
+#!icon = https://raw.githubusercontent.com/osinx/Script/main/icon/streamMusic.png
+#!date = 2024-07-06 20:05:57
 
 #！正确的恢复内购
 #！购买会员-通过支付宝订单号恢复购买-任意输入确认即可
