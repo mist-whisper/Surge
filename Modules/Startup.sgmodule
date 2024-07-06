@@ -1,6 +1,10 @@
-#!name=开屏去广告
-#!desc=通过脚本去除部分APP的顽固开屏广告
-#!system=ios
+#!name = 开屏去广告
+#!desc = 通过脚本去除部分APP的顽固开屏广告
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 
+#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Startup.sgmodule
+#!icon = 
+#!date = 2024-07-06 20:05:57
 
 [General]
 force-http-engine-hosts = %APPEND% t7z.cupid.iqiyi.com,kjp.cupid.iqiyi.com,*.didapinche.com
