@@ -1,7 +1,7 @@
 # NAME: Mainland
-# AUTHOR: Edward
-# HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules/Mainland/Mainland.list
-# UPDATED: 2024-06-10 14:09:24
+# AUTHOR: Sukka
+# HOMEPAGE: https://ruleset.skk.moe/List/non_ip/domestic.conf
+# UPDATED: 2024-07-07 22:14:24
 #This file contains known addresses that are avaliable in the Mainland China.
 
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
