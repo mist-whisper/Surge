@@ -1,19 +1,11 @@
 # NAME: Global
-# AUTHOR: blackmatrix7
-# HOMEPAGE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global.list
-# UPDATED: 2024-07-03 16:15:50
-# DOMAIN: 81
-# DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 24795
-# IP-CIDR: 112
-# IP-CIDR6: 4
-# PROCESS-NAME: 1
-# USER-AGENT: 46
-# TOTAL: 25075
-
+# AUTHOR: Sukka
+# HOMEPAGE: https://ruleset.skk.moe/List/non_ip/global.conf
+# UPDATED: 2024-07-07 22:15:50
 # This file contains rules for services that are not available inside the Mainland China.
-#########################################
+
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+
 DOMAIN,pki.goog
 DOMAIN,addons.mozilla.org
 DOMAIN,ees.elsevier.com
