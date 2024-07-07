@@ -1,6 +1,6 @@
 # NAME: Global
 # AUTHOR: Sukka
-# HOMEPAGE: https://ruleset.skk.moe/List/non_ip/global.conf
+#HOMEPAGE: https://ruleset.skk.moe/List/non_ip/global.conf
 # UPDATED: 2024-07-07 22:15:50
 # This file contains rules for services that are not available inside the Mainland China.
 
