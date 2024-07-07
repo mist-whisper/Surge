@@ -1,0 +1,8 @@
+# NAME: Google Voice
+# AUTHOR: blackmatrix7
+# HOMEPAGE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/GoogleVoice/GoogleVoice.list
+# UPDATED: 2024-07-03 16:16:59
+# DOMAIN: 1
+# TOTAL: 1
+
+DOMAIN,lens.l.google.com
