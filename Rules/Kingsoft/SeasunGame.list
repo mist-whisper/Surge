@@ -3,7 +3,7 @@
 # HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules/Kingsoft/SeasunGame.list
 # UPDATED: 2024-07-07 21:26:43
 # DOMAIN-SUFFIX: 9
-DOMAIN-KEYWORD: 2
+# DOMAIN-KEYWORD: 2
 # TOTAL: 11
 
 DOMAIN-SUFFIX,kingsoft.com
