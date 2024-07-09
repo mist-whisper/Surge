@@ -1161,7 +1161,7 @@ rrtv_json = type=http-response,pattern=^https:\/\/api\.rr\.tv\/drama\/app\/get_c
 rrtv_json = type=http-response,pattern=https://api.rr.tv/watch/v4,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
 # > RRTV_User_Info
 rrtv_json = type=http-response,pattern=https://api.rr.tv/user/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
-fly = type=http-response,pattern=^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1,requires-body=1,max-size=0,script-path=https://gitlab.com/fmz200/cuttlefish/-/raw/master/Crack/fly.js
+fly = type=http-response,pattern=^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fly.js
 # > 什么值得买开屏广告
 smzdm_remove_ads = type=http-response,pattern=^https?:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 # > 什么值得买首页广告
