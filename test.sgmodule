@@ -2,7 +2,8 @@
 #!desc = 显示机场剩余流量信息以及套餐到期日期
 
 [Panel]
-Sub_info = script-name=Sub_info,update-interval=600
+{{{NAME}}}=script-name={{{NAME}}},update-interval=3600
 
 [Script]
-peggy = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=&title=peggy&icon=bonjour&color=#a357d7&reset_day=1
+{{{NAME}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL}}}&reset_day={{{RESET-Day}}}&title={{{NAME}}}&icon={{{ICON=internaldrive.fill}}}&title={{{NAME}}}
+&color={{{COLOR=#007aff}}}&title={{{NAME}}}
