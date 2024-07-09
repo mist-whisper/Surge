@@ -24,6 +24,6 @@
 
 {{{NAME_2}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon={{{ICON_2}}}&color={{{COLOR_2}}}
 
-{{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info.js.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3}}}&color={{{COLOR_3}}}
+{{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3}}}&color={{{COLOR_3}}}
 
 {{{NAME_4}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info.js,script-update-interval=0,argument=url={{{URL_4}}}&reset_day={{{RESET-Day_4}}}&title={{{NAME_4}}}&icon={{{ICON_4}}}&color={{{COLOR_4}}}
