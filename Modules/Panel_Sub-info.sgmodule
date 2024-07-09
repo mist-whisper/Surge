@@ -6,7 +6,7 @@
 #!icon = 
 #!date = 2024-07-04 20:05:57
 #!category = 面板模块
-#!arguments = NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,NAME_4:#第四个机场的名字,URL_4:编码后的机场订阅,RESET-Day_4:重置日期
+#!arguments = NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期, ICON_1:机场图标,COLOR_1:图标颜色,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期, ICON_2:机场图标,COLOR_2:图标颜色,NAME_3:第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期, ICON_3:机场图标,COLOR_3:图标颜色,NAME_4:第四个机场的名字,URL_4:编码后的机场订阅,RESET-Day_4:重置日期,ICON_4:机场图标,COLOR_4:图标颜色
 #!arguments-desc = [参数设置]\n\n⓵ NAME: 写你机场的名字,默认开启单订阅。\n\n⓶ URL: 编码后的机场订阅。\n\n⓷ RESET_DAY: 流量每月重置的日期,如26号就写26,不设置则不显示流量重置日,仅显示到期日期。\n\n⓸ ICON: 可以自定义图标，内容为任意有效的 SF Symbol Name，如 bolt.horizontal.circle.fill，详细可以下载app https://apps.apple.com/cn/app/sf-symbols-browser/id1491161336 \n\n⓹ COLOR: 当使用 icon 字段时，可传入 color 字段控制图标颜色，字段内容为颜色的 HEX 编码。如：color=#007aff
 
 [Panel]
