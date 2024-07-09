@@ -1,8 +1,0 @@
-#!name = 机场流量信息
-#!desc = 显示机场剩余流量信息以及套餐到期日期
-
-[Panel]
-Sub_info = script-name=Sub_info,update-interval=600
-
-[Script]
-peggy = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=&title=peggy&icon=bonjour&color=#a357d7&reset_day=1
