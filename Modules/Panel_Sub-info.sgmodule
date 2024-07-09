@@ -2,7 +2,7 @@
 #!desc = 显示机场剩余流量信息以及套餐到期日期
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = 
-#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Sub-info.sgmodule
+#!homepage = https://github.com/Rabbit-Spec/Surge/blob/Master/Module/Panel/Sub-info/Moore/Sub-info_Max.sgmodule
 #!icon = 
 #!date = 2024-07-08 14:14:57
 #!category = 面板模块
