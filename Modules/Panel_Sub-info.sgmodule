@@ -16,13 +16,15 @@
 
 {{{NAME_3}}}=script-name={{{NAME_3}}},update-interval=3600
 
-{{{NAME_4}}}=script-name={{{NAME_3}}},update-interval=3600
+{{{NAME_4}}}=script-name={{{NAME_4}}},update-interval=3600
 
 [Script]
-{{{NAME_1}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon=externaldrive.fill.badge.icloud=#007aff
+{{{NAME_1}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon={{{internaldrive.fill}}}={{{#007aff}}}
 
-{{{NAME_2}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon=internaldrive.fill=#007aff
+{{{NAME_2}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon={{{internaldrive.fill}}}={{{#007aff}}}
 
-{{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon=externaldrive.connected.to.line.below.fill=#007aff
+{{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}
+&icon={{{internaldrive.fill}}}={{{#007aff}}}
 
-{{{NAME_4}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_4}}}&reset_day={{{RESET-Day_4}}}&title={{{NAME_4}}}&icon=externaldrive.connected.to.line.below.fill=#007aff
+{{{NAME_4}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_4}}}&reset_day={{{RESET-Day_4}}}&title={{{NAME_4}}}
+&icon={{{internaldrive.fill}}}={{{#007aff}}}
