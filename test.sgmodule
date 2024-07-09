@@ -1,9 +1,0 @@
-#!name = 机场流量信息
-#!desc = 显示机场剩余流量信息以及套餐到期日期
-
-[Panel]
-{{{NAME}}}=script-name={{{NAME}}},update-interval=3600
-
-[Script]
-{{{NAME}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL}}}&reset_day={{{RESET-Day}}}&title={{{NAME}}}&icon={{{ICON=internaldrive.fill}}}&title={{{NAME}}}
-&color={{{COLOR=#007aff}}}&title={{{NAME}}}
