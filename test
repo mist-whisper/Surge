@@ -1,3 +1,6 @@
+#!name = 机场流量信息
+#!desc = 显示机场剩余流量信息以及套餐到期日期
+
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=600
 
