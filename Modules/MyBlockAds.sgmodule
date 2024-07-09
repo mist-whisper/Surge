@@ -4,7 +4,7 @@
 #!author = RuCu6
 #!icon = https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1023.png
 #!homepage = https://github.com/RuCu6/QuanX/tree/main/Rewrites
-#!date = 2024-07-06 20:18:24
+#!date = 2024-07-09 12:18:24
 #!category = 去广告
 
 [URL Rewrite]
@@ -115,7 +115,7 @@
 ^https:\/\/osg-service\.sgcc\.com\.cn:18600\/emss-pfa-appset-front\/bootpageoutter\/ data-type=text data="{}" status-code=200
 
 # 微信 //mp.weixin.qq.com
-^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/snssvpdownload\/SH\/reserved\/ads_svp_video data-type=text data="{}" status-code=200
+^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ data-type=text data="{}" status-code=200
 
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
 
