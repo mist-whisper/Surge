@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Flush DNS](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_FlushDNS.sgmodule)
 * [历史上的今天](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Histoday.sgmodule)
 * [节点信息面板](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_IP-info.sgmodule)
-* [流媒体检测](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Media.sgmodule)
+* [第三方服务检测](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_MediaChecker.sgmodule)
 * [NetISP面板](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_NetISP.sgmodule)
 * [网络信息𝕏](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_NetISP_X.sgmodule)
 * [Network Info Panel-CN](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Network_Info_CN.sgmodule)
@@ -299,11 +299,11 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 流媒体检测
-> 流媒体检测面板
+## 第三方服务检测
+> 用于检测流媒体等服务的解锁情况
 <table>
   <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Media.sgmodule</td>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_MediaChecker.sgmodule</td>
   </tr>
 </table>
 
