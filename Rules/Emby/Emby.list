@@ -3,23 +3,23 @@
 # HOMEPAGE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Emby/Emby.list
 # HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules/Emby/Emby.list
 # UPDATED: 2024-07-07 16:17:40
-# DOMAIN: 14
+# DOMAIN: 16
 # DOMAIN-KEYWORD: 11
 # DOMAIN-SUFFIX: 47
 # PROCESS-NAME: 1
-# TOTAL: 69
+# TOTAL: 71
 
-DOMAIN,https://789.123456.al
-DOMAIN,https://pub1.emby.wtf
-DOMAIN,https://pub2.emby.wtf
-DOMAIN,https://pub3.emby.wtf
-DOMAIN,http://dpx1.1110111.top:80
-DOMAIN,http://dpx1.1110111.top
-DOMAIN,http://7777777.buzz
-DOMAIN,http://6666666.buzz:4533
-DOMAIN,http://6666666.buzz
-DOMAIN,https://i109.com
-DOMAIN,https://vip.baisi.pro
+DOMAIN,789.123456.al
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
+DOMAIN,dpx1.1110111.top
+DOMAIN,7777777.buzz
+DOMAIN,6666666.buzz
+DOMAIN,i109.com
+DOMAIN,vip.baisi.pro
+DOMAIN,581658.best
+DOMAIN,plex.tv
 
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN,emby.lcloud.wiki
