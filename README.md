@@ -92,7 +92,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 </table> -->
 
 ## AdvertisingLite
-> 复写去广告(严格版
+> 复写去广告(严格版)
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdvertisingLite.sgmodule</td>
