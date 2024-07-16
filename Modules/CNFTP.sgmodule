@@ -1,7 +1,11 @@
-#!name = cnftp
+#!name = CNFTP
 #!desc = 国内影视平台去广告，芒果TV会员解锁
+openUrl = https://apps.apple.com/app/id350962117
 #!author = RuCu6
-#!update = 2023-12-09 13:30
+#!homepage = https://github.com/RuCu6/QuanX/blob/main/Rewrites/Cube/cnftp.snippet
+#!icon = 
+#!date = 2023-12-09 13:30
+#!category = 去广告
 
 [URL Rewrite]
 # 无用请求
