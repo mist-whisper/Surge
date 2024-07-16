@@ -1,7 +1,7 @@
-#!name=cnftp
-#!desc=China Film and Television Platform.
-#!author=RuCu6
-#!update=2023-12-09 13:30
+#!name = cnftp
+#!desc = 国内影视平台去广告，芒果TV会员解锁
+#!author = RuCu6
+#!update = 2023-12-09 13:30
 
 [URL Rewrite]
 # 无用请求
