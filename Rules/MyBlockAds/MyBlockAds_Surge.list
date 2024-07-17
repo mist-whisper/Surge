@@ -1,8 +1,8 @@
 # NAME: MyBlockAds
 # AUTHOR: RuCu6
 # HOMEPAGE: https://github.com/RuCu6/QuanX/blob/main/Rules/MyBlockAds.list
-# UPDATED: 2024-07-04 08:50
-# 规则数量: 175
+# UPDATED: 2024-07-17 22:50
+# 规则数量: 177
 # 不支持的规则数量: 0
 # 已排除的规则数量: 0
 
@@ -65,6 +65,7 @@ DOMAIN,www.googleadservices.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.vungle.com
 DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appsflyer.com
@@ -114,17 +115,13 @@ DOMAIN,adui.tg.meitu.com
 DOMAIN,acdn.adnxs.com
 DOMAIN,mediation.adnxs.com
 DOMAIN,sin3-ib.adnxs.com
+DOMAIN,affcpatrk.com
 DOMAIN,api.zuihuimai.com
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN,ad-h5-cdn.soulapp.cn
 DOMAIN,ad-h5-station-cdn.soulapp.cn
 DOMAIN,ad-r.soulapp.cn
 DOMAIN,soul-ad.soulapp.cn
-IP-CIDR,47.56.131.76/32,no-resolve
-IP-CIDR,47.97.215.55/32,no-resolve
-IP-CIDR,47.99.42.29/32,no-resolve
-IP-CIDR,120.27.235.201/32,no-resolve
-IP-CIDR,121.196.197.147/32,no-resolve
 DOMAIN,ads.pubmatic.com
 DOMAIN,id.hadron.ad.gt
 DOMAIN-KEYWORD,-adsystem.com
@@ -153,13 +150,10 @@ DOMAIN,ipv6.music.163.com,extended-matching
 DOMAIN-SUFFIX,163jiasu.com,extended-matching
 DOMAIN,huodong.weibo.cn
 DOMAIN-SUFFIX,biz.weibo.com
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,badjs.weixinbridge.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,tong.8888888888.bid
-DOMAIN-KEYWORD,kc.saigmpl.com
-DOMAIN-KEYWORD,kcc.fwxhvvd.com
-DOMAIN-KEYWORD,kg.oiocklg.com
+DOMAIN-KEYWORD,4240585f1fb7266
 DOMAIN,acs4baichuan.m.taobao.com
 DOMAIN,adsmind.ugdtimg.com
 DOMAIN,amdc.m.youku.com
