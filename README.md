@@ -340,7 +340,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 </table>
 
 ## 机场流量信息
-> 显示机场剩余流量信息以及套餐到期日期
+> 显示机场剩余流量信息以及套餐到期日期<br>需要转换订阅链接，转换地址：https://www.urlencoder.org
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Sub-info.sgmodule</td>
