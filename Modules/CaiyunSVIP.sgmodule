@@ -34,4 +34,4 @@
 彩云天气-SVIP地图 = type=http-request,pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
 
 [MITM]
-hostname = %APPEND% *.caiyunapp.com,*.cyapi.com,*.cyapi.cn ,*.caiyunapp.cn
+hostname = %APPEND% *.caiyunapp.com, *.cyapi.com, *.cyapi.cn, *.caiyunapp.cn, license.enpass.io
