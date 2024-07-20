@@ -1,8 +1,8 @@
 # NAME: MyBlockAds
 # AUTHOR: RuCu6
 # HOMEPAGE: https://github.com/RuCu6/QuanX/blob/main/Rules/MyBlockAds.list
-# UPDATED: 2024-07-17 22:50
-# 规则数量: 177
+# UPDATED: 2024-07-19 15:15
+# 规则数量: 189
 # 不支持的规则数量: 0
 # 已排除的规则数量: 0
 
@@ -13,7 +13,7 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,ossgw.alicdn.com
 DOMAIN-SUFFIX,ut.taobao.com
-IP-CIDR,203.107.1.1/24,no-resolve
+IP-CIDR,203.107.1.1/24
 DOMAIN,api.iqiyi.com
 DOMAIN,advertising.apple.com
 DOMAIN,api-adservices.apple.com
@@ -37,8 +37,9 @@ DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
 DOMAIN,lc.map.baidu.com
-IP-CIDR,180.76.76.112/32,no-resolve
-IP-CIDR,180.76.76.200/32,no-resolve
+IP-CIDR,180.76.76.112/32
+IP-CIDR,180.76.76.200/32
+DOMAIN,abyss.cyapi.cn
 DOMAIN,ad.cyapi.cn
 DOMAIN,m.adyounger.com
 DOMAIN,api.helloclue.com
@@ -53,15 +54,24 @@ DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,pageviewp.icbc.com.cn
 DOMAIN-SUFFIX,mall.icbc.com.cn
 DOMAIN,ad.zijieapi.com
+DOMAIN,adapi.izuiyou.com
 DOMAIN,adtracker.adfunlink.com
+DOMAIN,dig.bdurl.net
+DOMAIN,dsp-x.jd.com
+DOMAIN,et.tanx.com
+DOMAIN,gdfp.gifshow.com
 DOMAIN,init.supersonicads.com
 DOMAIN,is.snssdk.com
+DOMAIN,janapi.jd.com
+DOMAIN,mercury-gateway.ixiaochuan.cn
 DOMAIN,open.e.kuaishou.com
 DOMAIN,open.kuaishou.com
 DOMAIN,pagead2.googlesyndication-cn.com
 DOMAIN,pagead2.googlesyndication.com
+DOMAIN,sdk.e.qq.com
 DOMAIN,ws.tapjoyads.com
 DOMAIN,www.googleadservices.com
+DOMAIN,xlog.jd.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.vungle.com
 DOMAIN-SUFFIX,adservice.google.com
@@ -72,7 +82,9 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,ubixioe.com
 DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
 DOMAIN-KEYWORD,ads.g.doubleclick
 DOMAIN-KEYWORD,asiad.byteactivity
@@ -82,12 +94,12 @@ DOMAIN-KEYWORD,pglstatp-toutiao
 DOMAIN-KEYWORD,video-cn.snssdk.com
 DOMAIN-SUFFIX,ehaier.com
 DOMAIN,hdns.ksyun.com
-DOMAIN-KEYWORD,httpdns.,extended-matching
-DOMAIN-KEYWORD,httpdns-,extended-matching
+DOMAIN-KEYWORD,httpdns.
+DOMAIN-KEYWORD,httpdns-
 DOMAIN-KEYWORD,adv.ccb.com
 DOMAIN,dns.jd.com
-IP-CIDR,101.124.19.122/32,no-resolve
-IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
+IP-CIDR,101.124.19.122/32
+IP-CIDR6,2402:db40:5100:1011::5/128
 DOMAIN,api.liquidlink.cn
 DOMAIN,ad.tencentmusic.com
 DOMAIN,g.koowo.com
@@ -109,7 +121,7 @@ DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
 DOMAIN,maplocatesdksnapshot.d.meituan.net
 DOMAIN,metrics-picture.d.meituan.net
-IP-CIDR,103.37.155.60/32,no-resolve
+IP-CIDR,103.37.155.60/32
 DOMAIN,aaid.uyunad.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,acdn.adnxs.com
@@ -140,14 +152,14 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-KEYWORD,trace.qq.com
 DOMAIN-KEYWORD,trace.video.qq.com
-IP-CIDR,47.110.187.87/32,no-resolve
+IP-CIDR,47.110.187.87/32
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
-DOMAIN,ipv4.music.163.com,extended-matching
-DOMAIN,ipv6.music.163.com,extended-matching
-DOMAIN-SUFFIX,163jiasu.com,extended-matching
+DOMAIN,ipv4.music.163.com
+DOMAIN,ipv6.music.163.com
+DOMAIN-SUFFIX,163jiasu.com
 DOMAIN,huodong.weibo.cn
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN,badjs.weixinbridge.com
@@ -182,6 +194,6 @@ DOMAIN,crash2.zhihu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,zxid-m.mobileservice.cn
-IP-CIDR,103.41.167.237/32,no-resolve
-IP-CIDR,118.89.204.198/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+IP-CIDR,103.41.167.237/32
+IP-CIDR,118.89.204.198/32
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
