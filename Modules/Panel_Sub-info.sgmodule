@@ -19,6 +19,8 @@
 
 {{{NAME_4}}}=script-name={{{NAME_4}}},update-interval=3600
 
+{{{NAME_5}}}=script-name={{{NAME_5}}},update-interval=3600
+
 [Script]
 {{{NAME_1}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon={{{ICON_1}}}&color={{{COLOR_1}}}
 
@@ -27,3 +29,5 @@
 {{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3}}}&color={{{COLOR_3}}}
 
 {{{NAME_4}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info/Sub-info.js,script-update-interval=0,argument=url={{{URL_4}}}&reset_day={{{RESET-Day_4}}}&title={{{NAME_4}}}&icon={{{ICON_4}}}&color={{{COLOR_4}}}
+
+{{{NAME_5}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Sub-info/Sub-info.js,script-update-interval=0,argument=url={{{URL_5}}}&reset_day={{{RESET-Day_5}}}&title={{{NAME_5}}}&icon={{{ICON_5}}}&color={{{COLOR_5}}}
