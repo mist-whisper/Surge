@@ -17,6 +17,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Bilibili增强(白色B站)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule)
 * [𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BuyiTunes_VIP.sgmodule)
 * [菜鸟净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule)
+* [CaiyunSVIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
 * [App解锁合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Collections.sgmodule)
 * [Connectivity_Test](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Connectivity_Test.sgmodule)
 * [DNSPod-DoH](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DNS-DoH.sgmodule)
@@ -152,6 +153,14 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule</td>
+  </tr>
+</table>
+
+## CaiyunSVIP
+> 解锁彩云天气会员，去除推广和广告
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule</td>
   </tr>
 </table>
 
