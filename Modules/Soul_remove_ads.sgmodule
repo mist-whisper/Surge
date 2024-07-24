@@ -2,30 +2,10 @@
 #!desc = 移除开屏广告、移除话题页面热Soul话题、移除评论区礼物榜、移除更新提示、移除青少年弹窗、移除我的页面推广、移除悬浮部件。
 #!openUrl = https://apps.apple.com/app/id1032287195
 #!author = ZenmoFeiShi RuCu6 可莉🅥
-#!homepage = https://gitlab.com/lodepuly/vpn_tool//tree/master/Tool/Loon/Plugin
-https://github.com/ZenmoFeiShi/Qx/blob/main/Soul.snippet
+#!homepage = https://github.com/ZenmoFeiShi/Qx/blob/main/Soul.snippet
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Soul.png
-#!date = 2024-06-16 20:23:01
+#!date = 2024-06-20 22:49:01
 #!category = 去广告
-
-[Rule]
-# 地理位置 - 影响注册账号时的属地判断
-DOMAIN-SUFFIX,soulapp.cn,DIRECT
-IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
-IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
-# 广告下发
-DOMAIN,ad-h5-cdn.soulapp.cn,REJECT
-DOMAIN,ad-h5-station-cdn.soulapp.cn,REJECT
-DOMAIN,ad-r.soulapp.cn,REJECT
-DOMAIN,soul-ad.soulapp.cn,REJECT
-# 广告域名IP查询
-IP-CIDR,47.56.131.76/32,REJECT,no-resolve
-IP-CIDR,47.97.215.55/32,REJECT,no-resolve
-IP-CIDR,47.99.42.29/32,REJECT,no-resolve
-IP-CIDR,47.110.187.87/32,REJECT,no-resolve
-IP-CIDR,47.243.147.125/32,REJECT,no-resolve
-IP-CIDR,120.27.235.201/32,REJECT,no-resolve
-IP-CIDR,121.196.197.147/32,REJECT,no-resolve
 
 [Map Local]
 ^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}" status-code=200
