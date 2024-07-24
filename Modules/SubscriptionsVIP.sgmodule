@@ -1,0 +1,15 @@
+#!name = SubscriptionsVIP
+#!desc = 订阅通解锁会员
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑
+#!homepage = https://github.com/ddgksf2013/Modules/raw/main/BuyiTunes.Vip.sgmodule
+#!icon = 
+#!date = 2024-07-24 15:44:57
+#!category = 会员解锁
+
+[Script]
+# ～ RevenueCat@ddgksf2013
+BuyiTunesVip = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Subscriptions/Subscriptions.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
