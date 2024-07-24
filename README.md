@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 
 * [去广告集合](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AD.sgmodule)
 * [APP启动页去广告融合版ultra+](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdUltraPlus.sgmodule)
+* [广告拦截重写合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdsRewrite.sgmodule)
   <!-- * [广告联盟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Adsense.sgmodule) -->
 * [复写去广告(严格版)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdvertisingLite.sgmodule)
 * [Ali-DoQ](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Ali-DoQ.sgmodule)
@@ -17,20 +18,17 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Bilibili增强(白色B站)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule)
 * [𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BuyiTunes_VIP.sgmodule)
 * [菜鸟净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule)
-* [CaiyunSVIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
+* [彩云天气SVIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
 * [App解锁合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Collections.sgmodule)
 * [Connectivity_Test](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Connectivity_Test.sgmodule)
 * [DNSPod-DoH](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DNS-DoH.sgmodule)
 * [Disney+评分](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DisneyPlusRating.sgmodule)
 * [豆瓣去开屏广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DoubanStarting_remove_ads.sgmodule)
 * [Emby解锁](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Emby_Unlock.sgmodule)
-* [🍟 Fries: 🌐 General Enhanced](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/General.sgmodule)
+* [通用增强](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/General.sgmodule)
 * [Google人机验证](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/GoogleCAPTCHA.sgmodule)
-* [Google Rewrite](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule)
+* [谷歌重定向](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule)
 * [美团去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Meituan_remove_ads.sgmodule)
-* [菜鸟去广告[墨鱼版]](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_Cainiaoads.sgmodule)
-* [墨鱼去开屏𝐕𝟐.𝟎](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_Startup.sgmodule)
-* [微博&微博国际版净化[墨鱼版]](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_WeiboAds.sgmodule)
 * [MyBlockAds](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/MyBlockAds.sgmodule)
 * [网易云音乐去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/NetEaseCloudMusic_remove_ads.sgmodule)
 * [Flush DNS](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_FlushDNS.sgmodule)
@@ -39,7 +37,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [第三方服务检测](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_MediaChecker.sgmodule)
 * [NetISP面板](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_NetISP.sgmodule)
 * [网络信息𝕏](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_NetISP_X.sgmodule)
-* [Network Info Panel-CN](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Network_Info_CN.sgmodule)
+* [网络详情](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Network_Info_CN.sgmodule)
 * [当前汇率](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Rates.sgmodule)
 * [机场流量信息](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_Sub-info.sgmodule)
 * [Surge Pro](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Panel_SurgePro.sgmodule)
@@ -52,7 +50,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Soul去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Soul_remove_ads.sgmodule)
 * [APP启动页去广告融合版](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StartingAds.sgmodule)
 * [开屏去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Startup.sgmodule)
-* [解锁音流VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule)
+* [音流VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule)
 * [订阅通会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/SubscriptionsVIP.sgmodule)
 * [淘宝去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Taobao_remove_ads.sgmodule)
 * [腾讯视频去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Tencent_Video_remove_ads.sgmodule)
@@ -62,7 +60,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [微博去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Weibo_remove_ads.sgmodule)
 * [微信外部链接解锁](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Weixn_external_links_unlock.sgmodule)
 * [微信公众号去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Wexin_Official_Accounts_remove_ads.sgmodule)
-* [喜马拉雅修改](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Xmlyads.sgmodule)
+* [喜马拉雅去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Xmlyads.sgmodule)
 * [YouTube去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/YouTube_remove_ads.sgmodule)
 * [知乎去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Zhihu_remove_ads.sgmodule)
   
@@ -81,6 +79,15 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdUltraPlus.sgmodule</td>
+  </tr>
+</table>
+
+## 广告拦截重写合集
+> (R)针对部分APP和小程序广告进行拦截，支持约511款APP/小程序，某些APP要清除缓存或者重新安装拦截广告才会生效！
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdsRewrite.sgmodule
+</td>
   </tr>
 </table>
 
@@ -157,7 +164,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## CaiyunSVIP
+## 彩云天气SVIP
 > 解锁彩云天气会员，去除推广和广告
 <table>
   <tr>
@@ -213,7 +220,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 🍟 Fries: 🌐 General Enhanced
+## 通用增强
 > 1.添加跳过代理部分段内容<br> 2.添加返回真实IP段内容<br> 3.添加不可MitM的域名，防止打断连接
 <table>
   <tr>
@@ -229,8 +236,8 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## Google Rewrite
-> 谷歌重定向
+## 谷歌重定向
+> 将cn/hk重定向至com
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule</td>
@@ -242,30 +249,6 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Meituan_remove_ads.sgmodule</td>
-  </tr>
-</table>
-
-## 菜鸟去广告[墨鱼版]
-> 菜鸟(支付宝小程序)净化[墨鱼版]
-<table>
-  <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_Cainiaoads.sgmodule</td>
-  </tr>
-</table>
-
-## 墨鱼去开屏𝐕𝟐.𝟎
-> 去除APP首页启动广告和部分应用内广告
-<table>
-  <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_Startup.sgmodule</td>
-  </tr>
-</table>
-
-## 微博&微博国际版净化[墨鱼版]
-> 微博、微博国际版净化二合一
-<table>
-  <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Moyu_WeiboAds.sgmodule</td>
   </tr>
 </table>
 
@@ -333,7 +316,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## Network Info Panel-CN
+## 网络详情
 > 详细的显示你当前的网络信息
 <table>
   <tr>
@@ -437,7 +420,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 解锁音流VIP
+## 音流VIP
 > 永久解锁音流VIP
 <table>
   <tr>
@@ -519,7 +502,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 喜马拉雅修改
+## 喜马拉雅去广告
 > 去广告、修改会员标识（完全自慰）、限时破解会员
 <table>
   <tr>
