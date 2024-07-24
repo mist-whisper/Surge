@@ -25,6 +25,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Disney+评分](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DisneyPlusRating.sgmodule)
 * [豆瓣去开屏广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DoubanStarting_remove_ads.sgmodule)
 * [Emby解锁](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Emby_Unlock.sgmodule)
+* [FIMO相机VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/FIMOVIP.sgmodule)
 * [通用增强](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/General.sgmodule)
 * [Google人机验证](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/GoogleCAPTCHA.sgmodule)
 * [谷歌重定向](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule)
@@ -217,6 +218,14 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Emby_Unlock.sgmodule</td>
+  </tr>
+</table>
+
+## FIMO相机VIP
+> 解锁FIMO复古胶片相机VIP<br>打开App直接恢复购买，不用登录
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/FIMOVIP.sgmodule</td>
   </tr>
 </table>
 
