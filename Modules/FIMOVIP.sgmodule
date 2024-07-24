@@ -1,0 +1,27 @@
+#!name = FIMO相机VIP
+#!desc = 解锁FIMO复古胶片相机VIP
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = chxm1023
+#!homepage = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/ddm.png
+#!date = 2024-07-20 01:23:57
+#!category = 会员解锁
+
+#============【使用说明】==============#
+# 使用声明：作者并未参与任何形式的金钱交易，仅限测试和学习，请勿转载与贩卖，下载使用后24小时请删除⚠️⚠️⚠️⚠️⚠️
+
+# 使用方法：先开脚本再打开App，会自动生效
+
+# 特别说明：此脚本可能会导致App Store无法登录/下载
+
+# 解决方法：关[MITM][脚本][代理工具]方法选一即可
+
+# 更新日期：2024-07-24
+
+[Script]
+# Fimo_复古胶片相机
+# hostname = server.*.com
+Fimo复古相机 = type=http-response,pattern=^https?:\/\/server\.(yoyiapp|zbisq)\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/FIMO/FIMO.js
+
+[MITM]
+hostname = %APPEND% server.*.com
