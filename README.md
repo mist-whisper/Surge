@@ -159,7 +159,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 </table>
 
 ## 芒果TV会员
-> 国内影视平台去广告<br>解锁芒果TV会员国区,美区,平板端，电视端不可用
+> 国内影视平台去广告<br>解锁芒果TV会员（含国区，美区，平板端）。电视端不可用。
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CNFTP.sgmodule</td>
