@@ -17,8 +17,9 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [百度网页去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BaiduSearchWebpage_remove_ads.sgmodule)
 * [Bilibili增强(白色B站)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule)
 * [𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BuyiTunes_VIP.sgmodule)
+* [芒果TV会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CNFTP.sgmodule)
 * [菜鸟净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule)
-* [彩云天气SVIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
+* [彩云天气会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
 * [App解锁合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Collections.sgmodule)
 * [Connectivity_Test](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Connectivity_Test.sgmodule)
 * [DNSPod-DoH](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DNS-DoH.sgmodule)
@@ -51,7 +52,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Soul去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Soul_remove_ads.sgmodule)
 * [APP启动页去广告融合版](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StartingAds.sgmodule)
 * [开屏去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Startup.sgmodule)
-* [音流VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule)
+* [音流会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule)
 * [订阅通会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/SubscriptionsVIP.sgmodule)
 * [淘宝去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Taobao_remove_ads.sgmodule)
 * [腾讯视频去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Tencent_Video_remove_ads.sgmodule)
@@ -157,6 +158,14 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
+## 芒果TV会员
+> 国内影视平台去广告<br>解锁芒果TV会员国区,美区,平板端，电视端不可用
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CNFTP.sgmodule</td>
+  </tr>
+</table>
+
 ## 菜鸟净化
 > 过滤菜鸟广告
 <table>
@@ -165,7 +174,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 彩云天气SVIP
+## 彩云天气会员
 > 解锁彩云天气会员，去除推广和广告
 <table>
   <tr>
@@ -221,7 +230,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## FIMO相机VIP
+## FIMO相机会员
 > 解锁FIMO复古胶片相机VIP<br>打开App直接恢复购买，不用登录
 <table>
   <tr>
@@ -429,8 +438,8 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 音流VIP
-> 永久解锁音流VIP
+## 音流会员
+> 永久解锁音流会员<br>解锁说明：购买会员-通过支付宝订单号恢复购买-任意输入确认即可
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule</td>
