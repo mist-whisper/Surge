@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [FIMO相机VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/FIMOVIP.sgmodule)
 * [通用增强](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/General.sgmodule)
 * [Google人机验证](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/GoogleCAPTCHA.sgmodule)
-* [谷歌重定向](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule)
+* [Google搜索重定向](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule)
 * [美团去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Meituan_remove_ads.sgmodule)
 * [MyBlockAds](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/MyBlockAds.sgmodule)
 * [网易云音乐去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/NetEaseCloudMusic_remove_ads.sgmodule)
@@ -254,8 +254,8 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 谷歌重定向
-> 将cn/hk重定向至com
+## Google搜索重定向
+> 将Google搜索重定向至.com域名，如遇频繁跳转请禁用。
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Google_Rewrite.sgmodule</td>
