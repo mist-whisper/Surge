@@ -1,5 +1,5 @@
-#!name = Google Rewrite
-#!desc = 谷歌重定向
+#!name = 谷歌重定向
+#!desc = 将cn/hk重定向至com
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = 
 #!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Google_Rewrite.sgmodule
