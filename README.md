@@ -53,6 +53,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [APP启动页去广告融合版](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StartingAds.sgmodule)
 * [开屏去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Startup.sgmodule)
 * [解锁音流VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule)
+* [订阅通会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/SubscriptionsVIP.sgmodule)
 * [淘宝去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Taobao_remove_ads.sgmodule)
 * [腾讯视频去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Tencent_Video_remove_ads.sgmodule)
 * [TikTok US](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Tiktok_Unlock_US.sgmodule)
@@ -443,6 +444,16 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/StreamMusic_Unlock.sgmodule</td>
   </tr>
 </table>
+
+## 订阅通会员
+> 解锁订阅通会员
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/SubscriptionsVIP.sgmodule
+</td>
+  </tr>
+</table>
+
 
 ## 淘宝去广告
 > 过滤淘宝开屏广告
