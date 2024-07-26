@@ -16,7 +16,6 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [App/小程序广告净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AppAds.sgmodule)
 * [百度网页去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BaiduSearchWebpage_remove_ads.sgmodule)
 * [Bilibili增强(白色B站)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule)
-* [𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BuyiTunes_VIP.sgmodule)
 * [芒果TV会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CNFTP.sgmodule)
 * [菜鸟净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule)
 * [彩云天气会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
@@ -147,14 +146,6 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule</td>
-  </tr>
-</table>
-
-## 𝐁𝐮𝐲𝐢𝐓𝐮𝐧𝐞𝐬
-> APP脚本解锁合集
-<table>
-  <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BuyiTunes_VIP.sgmodule</td>
   </tr>
 </table>
 
