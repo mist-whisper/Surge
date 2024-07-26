@@ -29,59 +29,6 @@ const yearlyid = `${bundle_id}.yearly`;
 const yearlysubscription = `${bundle_id}.yearlysubscription`;
 
 const list = {
-  'HRV': { hx: 'hxpdc', id: "com.stress.test.record.yearly", latest: "chxm1023" },  //解压小橘子(需试用)
-  'iVCam': { cm: 'timeb', hx: 'hxpda', id: "ivcam.full", latest: "chxm1023" },//iVCam
-  'RBrowser': { cm: 'timea', hx: 'hxpda', id: "com.mm.RBroswer.product11", latest: "chxm1023" }, //R浏览器
-  'VideoLab': { cm: 'timea', hx: 'hxpda', id: "com.jellybus.VideoLab.IAP.PRO7999", latest: "chxm1023" },//VideoLab
-  'Filterra': { cm: 'timea', hx: 'hxpda', id: "com.filterra.wtonetimepurchase", latest: "chxm1023" },//Filterra
-  'MOLDIV': { cm: 'timea', hx: 'hxpda', id: "com.jellybus.Moldiv.IAP.PRO7999", latest: "chxm1023" },//MOLDIV
-  'PICSPLAY': { cm: 'timea', hx: 'hxpda', id: "com.jellybus.PicsPlay2.IAP.PRO5999", latest: "chxm1023" },//PICSPLAY
-  'Rookie': { cm: 'timea', hx: 'hxpda', id: "com.jellybus.Rookie.IAP.PRO5999", latest: "chxm1023" },//RKCAM
-  'MoneyWiz': { cm: 'timea', hx: 'hxpda', id: "com.moneywiz.personalfinance.1year", latest: "chxm1023" }, //MoneyWiz-个人财务
-  'qxzs': { cm: 'timeb', hx: 'hxpda', id: "yongjiu", latest: "chxm1023" },//心率广播
-  'Overdrop': { cm: 'timeb', hx: 'hxpda', id: "com.weather.overdrop.forever", latest: "chxm1023" }, //Overdrop-天气预报
-  'Boom': { cm: 'timeb', hx: 'hxpda', id: "com.globaldelight.iBoom.LifetimeDiscountPack", latest: "chxm1023" }, //Boom-感受音乐
-  'PDFReaderPro%20Free': { cm: 'timeb', hx: 'hxpda', id: "com.pdfreaderpro.free.member.all_access_pack_permanent_license.001", latest: "chxm1023" }, //PDFReaderProFree
-  'VideoHelper': { cm: 'timeb', hx: 'hxpda', id: "vip_service", latest: "chxm1023" }, //媒关系
-  'Digital%20Planner': { cm: 'timea', hx: 'hxpda', id: "com.softwings.DigitalPlanner.1year", latest: "chxm1023" }, //电子手帐
-  'SuperMandarin': { cm: 'timea', hx: 'hxpda', id: "pth_vip_year", latest: "chxm1023" }, //普通话水平测试
-  'SuperQuestion': { cm: 'timea', hx: 'hxpda', id: "qtzs_vip_year", latest: "chxm1023" }, //真题全刷
-  'SuperElves': { cm: 'timeb', hx: 'hxpda', id: "com.SuperElves.Answer.Forever", latest: "chxm1023" }, //答案精灵
-  'SuperDriving': { cm: 'timeb', hx: 'hxpda', id: "jiakao_vip_forever", latest: "chxm1023" }, //驾考学典
-  'Pollykann': { cm: 'timeb', hx: 'hxpda', id: "vip.forever.pollykann", latest: "chxm1023" }, //小鹦看看
-  'JCCalendar': { cm: 'timeb', hx: 'hxpda', id: "com.sjc.calendar.vip.lifelong", latest: "chxm1023" }, //简约日历
-  'com.yanxia.ChsMedical': { cm: 'timeb', hx: 'hxpda', id: "VIPUser", latest: "chxm1023" }, //中医精华
-  'SuperPointer': { cm: 'timeb', hx: 'hxpda', id: "com.SuperPointer.Location.Forever", latest: "chxm1023" }, //海拔指南针
-  'SnakeReader': { cm: 'timeb', hx: 'hxpda', id: "com.lyran.snakescanner.premium18", latest: "chxm1023" }, //开卷阅读
-  'FourthPPT': { cm: 'timeb', hx: 'hxpda', id: "com.FourthPPT.Mobile.Forever", latest: "chxm1023" }, //PPT制作软件
-  'OneExtractor': { cm: 'timeb', hx: 'hxpda', id: "com.OneExtractor.Video.Forever", latest: "chxm1023" }, //视频提取器
-  'com.Colin.Colors': { cm: 'timea', hx: 'hxpda', id: "com.colin.colors.annualVIP", latest: "chxm1023" }, //搜图
-  'PhotosSorter': { cm: 'timeb', hx: 'hxpda', id: "sorter.pro.ipa", latest: "chxm1023" }, //Sorter-相册整理
-  'VDIT': { cm: 'timea', hx: 'hxpda', id: "me.imgbase.videoday.yearly", latest: "chxm1023" }, //VDIT(未完成)
-  'intolive': { cm: 'timea', hx: 'hxpda', id: "me.imgbase.intolive.proSubYearly", latest: "chxm1023" }, //intolive-实况壁纸制作器
-  'MyAlbum': { cm: 'timeb', hx: 'hxpda', id: "com.colin.myalbum.isUpgradeVip", latest: "chxm1023" }, //Cleaner-照片管理
-  'VideoEditor': { cm: 'timeb', hx: 'hxpda', id: "com.god.videohand.alwaysowner", latest: "chxm1023" }, //VideoShot
-  'PhotoMovie': { cm: 'timea', hx: 'hxpda', id: "com.mediaeditor.photomovie.year", latest: "chxm1023" }, //PhotoMovie-照片视频
-  'ShotOn': { cm: 'timeb', hx: 'hxpda', id: "com.colin.shoton.forevervip", latest: "chxm1023" }, //ShotOn
-  'PhimCiaj': { cm: 'timeb', hx: 'hxpda', id: "com.jiancent.calligraphymaster.lifetime", latest: "chxm1023" }, //练字大师
-  'TimeCut': { cm: 'timea', hx: 'hxpda', id: "com.floatcamellia.hfrslowmotion.forevervip", latest: "chxm1023" },  //TimeCut
-  'com.floatcamellia.motiok': { cm: 'timea', hx: 'hxpda', id: "com.floatcamellia.motiok.vipforever", latest: "chxm1023" },  //Hype_Text-AE特效片制作
-  'POPOLockScreenWidgetable': { cm: 'timea', hx: 'hxpda', id: "com.widget.fightenegery.yearly", latest: "chxm1023" },  //多彩壁纸
-  'GreetingScanner': { cm: 'timea', hx: 'hxpda', id: "com.alphaplus.greetingscaner.w.b", latest: "chxm1023" },  //扫描识别王
-  'FancyCamPlus': { cm: 'timea', hx: 'hxpda', id: "com.alphaplus.fancycam.year.198", latest: "chxm1023" },  //悦颜相机
-  'Again': { cm: 'timeb', hx: 'hxpda', id: "com.owen.again.profession", latest: "chxm1023" },  //Again
-  'remotelg': { cm: 'timeb', hx: 'hxpda', id: "com.gqp.remotelg.lifetime", latest: "chxm1023" },  //UniversalRemoteTV+
-  'Notebook': { cm: 'timea', hx: 'hxpda', id: "com.zoho.notebook.ios.personal.yearly", latest: "chxm1023" },  //Notebook
-  'com.damon.dubbing': { cm: 'timea', hx: 'hxpda', id: "com.damon.dubbing.vip12", latest: "chxm1023" },  //有声英语绘本
-  'ZHUBEN': { cm: 'timea', hx: 'hxpda', id: "com.xiaoyu.yue", latest: "chxm1023" },  //有声英语绘本
-  'XIAOTangHomeParadise': { cm: 'timea', hx: 'hxpda', id: "com.yuee.mo2", latest: "chxm1023" },  //鸿海幼儿启蒙
-  'film': { cm: 'timea', hx: 'hxpda', id: "pro_auto_subscribe_year_ovs", latest: "chxm1023" },  //胶卷相机
-  'Muza': { cm: 'timea', hx: 'hxpda', id: "com.appmuza.premium_year", latest: "chxm1023" },  //Muza-修图APP
-  'StandbyWidget': { cm: 'timed', hx: 'hxpda', id: "com.standby.idream.year.68", ids: "standbyus.nonconsume.missingyou", latest: "chxm1023" },  //StandBy_Us-情侣定位
-  'Mango6Minute': { cm: 'timea', hx: 'hxpda', id: "576170870", latest: "chxm1023" },  //6分钟英语
-  'Photo%20Cutout': { cm: 'timea', hx: 'hxpda', id: "com.icepine.allyear", latest: "chxm1023" },  //轻松扣图
-  'cleanPhone': { cm: 'timea', hx: 'hxpda', id: "com.clean.year", latest: "chxm1023" },  //爱机清理
-  'ppt': { cm: 'timea', hx: 'hxpda', id: "com.palmmob.pptios.yearly", latest: "chxm1023" },  //手机PPT制作
   'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //垃圾贪吃猫
   'MeowTalk': { cm: 'timea', hx: 'hxpda', id: "meowtalk.month.basic.autorenewable.subscription", latest: "chxm1023" },  //喵说
   'habitdot': { cm: 'timeb', hx: 'hxpda', id: "habitdots_pro_forever", latest: "chxm1023" },  //习惯点点
