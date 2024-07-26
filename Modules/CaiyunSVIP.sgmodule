@@ -25,13 +25,13 @@
 
 [Map Local]
 # 彩云天气去广告
-^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get data="https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/reject-200.txt"
 
 [Script]
 # 彩云天气
 # hostname = *.cyapi.cn, *.caiyunapp.com, adx.sogaha.cn
-彩云天气-SVIP会员 = type=http-response,pattern=^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners)|p\/v\d\/(vip_info|user_info)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
-彩云天气-SVIP地图 = type=http-request,pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+彩云天气-SVIP会员 = type=http-response,pattern=^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners)|p\/v\d\/(vip_info|user_info)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/caiyunweather.js
+彩云天气-SVIP地图 = type=http-request,pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/caiyunweather.js
 
 [MITM]
 hostname = %APPEND% *.cyapi.cn, *.caiyunapp.com, *.cyapi.com, *.caiyunapp.cn, adx.sogaha.cn
