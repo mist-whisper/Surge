@@ -29,6 +29,7 @@ const yearlyid = `${bundle_id}.yearly`;
 const yearlysubscription = `${bundle_id}.yearlysubscription`;
 
 const list = {
+  'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //垃圾贪吃猫
   'MeowTalk': { cm: 'timea', hx: 'hxpda', id: "meowtalk.month.basic.autorenewable.subscription", latest: "chxm1023" },  //喵说
   'habitdot': { cm: 'timeb', hx: 'hxpda', id: "habitdots_pro_forever", latest: "chxm1023" },  //习惯点点
   'stretchworkout': { cm: 'timea', hx: 'hxpda', id: "com.abishkking.premiumYearStretch", latest: "chxm1023" },  //拉伸运动
