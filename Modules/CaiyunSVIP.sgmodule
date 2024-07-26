@@ -1,37 +1,29 @@
 #!name = 彩云天气会员
 #!desc = 解锁彩云天气会员，去除推广和广告
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
-#!author = chxm1023
-#!homepage = https://github.com/chxm1023/Rewrite/blob/chxm1023/README.md
+#!author = RuCu6
+#!homepage = https://github.com/RuCu6/QuanX/blob/main/Rewrites/AppUnlock.conf
 #!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/ddm.png
-#!date = 2024-07-20 01:23:57
+#!date = 2024-07-26 22:30:57
 #!category = 解锁去广告
 
-#============【使用说明】==============#
-# 使用声明：作者并未参与任何形式的金钱交易，仅限测试和学习，请勿转载与贩卖，下载使用后24小时请删除⚠️⚠️⚠️⚠️⚠️
-
-# 使用方法：先开脚本再打开App，会自动生效
-
-# 特别说明：此脚本可能会导致App Store无法登录/下载
-
-# 解决方法：关[MITM][脚本][代理工具]方法选一即可
-
-# 更新日期：2024-07-20
-
-#=============UserScript=============#
-[URL Rewrite]
-# 彩云天气去广告
-^https?:\/\/ad\.(caiyunapp|cyapi)\.(cn|com) - reject
+#============【使用声明】==============#
+# 作者并未参与任何形式的金钱交易，仅限测试和学习，请勿转载与贩卖，下载使用后24小时请删除⚠️⚠️⚠️⚠️⚠️
 
 [Map Local]
-# 彩云天气去广告
-^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get data="https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/reject-200.txt"
+^https:\/\/biz\.cyapi\.cn\/(p\/v1\/entries|p\/v1\/trial_card\/info|v2\/product) data-type=text data="{}" status-code=200
+
+^https:\/\/starplucker\.cyapi\.cn\/v3\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures) data-type=text data="{}" status-code=200
 
 [Script]
-# 彩云天气
-# hostname = *.cyapi.cn, *.caiyunapp.com, adx.sogaha.cn
-彩云天气-SVIP会员 = type=http-response,pattern=^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners)|p\/v\d\/(vip_info|user_info)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/caiyunweather.js
-彩云天气-SVIP地图 = type=http-request,pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Caiyun/caiyunweather.js
+# 彩云天气 //api.caiyunapp.com, *.cyapi.cn
+caiyun = type=http-response, pattern=^https:\/\/api\.caiyunapp\.com\/v1\/activity\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, requires-body=true, max-size=-1, timeout=60
+
+caiyun = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, requires-body=true, max-size=-1, timeout=60
+
+caiyun = type=http-response, pattern=^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, requires-body=true, max-size=-1, timeout=60
+
+caiyun = type=http-request, pattern=^https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, timeout=60
 
 [MITM]
-hostname = %APPEND% api.caiyunapp.com, *.cyapi.cn, *.caiyunapp.com, *.cyapi.com, *.caiyunapp.cn, adx.sogaha.cn
+hostname = %APPEND% api.caiyunapp.com, *.cyapi.cn
