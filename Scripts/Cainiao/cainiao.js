@@ -1,1 +1,132 @@
-const u=$request.url;let k=JSON.parse($response.body);switch(true){case/cainiao\.nbpresentation\.protocol\.homepage\.get\.cn/.test(u):if(k.data.result){let e=k.data.result;if(e.dataList){e.dataList=e.dataList.filter((e=>{if(e.type.includes("kingkong")){if(e.bizData.items){for(let t of e.bizData.items){t.rightIcon=null;t.bubbleText=null}return true}}else if(e.type.includes("icons_scroll")){if(e.bizData.items){const t=["bgxq","cncy","cngy","cngreen","gjjf","jkymd","ljjq","ttlhb"];e.bizData.items=e.bizData.items.filter((e=>!t.includes(e.key)));for(let t of e.bizData.items){t.rightIcon=null;t.bubbleText=null}return true}}else if(e.type.includes("big_banner_area")){return false}else if(e.type.includes("promotion")){return false}else{return true}}))}}break;case/cainiao\.guoguo\.nbnetflow\.ads\.mshow/.test(u):const e=["10","498","328","366","369","615","616","727","1275","1308","1316","1332","1340"];for(let t of e){if(k.data?.[t]){delete k.data[t]}}break;case/nbpresentation\.homepage\.merge\.get\.cn/.test(u):if(k.data){const e=["mtop.cainiao.nbmensa.research.researchservice.acquire.cn@0","mtop.cainiao.nbmensa.research.researchservice.acquire.cn@1","mtop.cainiao.nbmensa.research.researchservice.acquire.cn@2","mtop.cainiao.nbmensa.research.researchservice.acquire.cn@3"];for(let t of e){if(k.data?.[t]){delete k.data[t]}}}break;case/nbpresentation\.pickup\.empty\.page\.get\.cn/.test(u):if(k.data.result){let e=k.data.result.content;if(e.middle){e.middle=e.middle.filter((e=>!["guoguo_pickup_empty_page_relation_add","guoguo_pickup_helper_feedback","guoguo_pickup_helper_tip_view"].includes(e.template.name)))}}break;case/guoguo\.nbnetflow\.ads\.show\.cn/.test(u):if(k.data.result){k.data.result=k.data.result.filter((e=>{const t=e?.materialContentMapper?.group_id;const a=e?.materialContentMapper?.bgImg;const n=e?.materialContentMapper?.advRecGmtModifiedTime;const r=e?.materialContentMapper?.adItemDetail;const i=new Set(["entertainment","kuaishou_banner","common_header_banner","interests"]);return!(r||t&&i.has(t)||a&&n)}))}break;default:break}$done({body:JSON.stringify(k)});
+// 2024-06-08 09:40
+//原始地址：https://github.com/RuCu6/QuanX/blob/main/Scripts/cainiao.js
+
+const url = $request.url;
+if (!$response.body) $done({});
+let obj = JSON.parse($response.body);
+
+if (url.includes(".guoguo.nbnetflow.ads.mshow")) {
+  // 首页
+  if (obj?.data) {
+    const items = [
+      "10", // 物流详情页 底部横图
+      "498", // 物流详情页 左上角
+      "328", // 3位数为家乡版本
+      "366",
+      "369",
+      "615",
+      "616",
+      "727",
+      "793", // 支付宝 小程序 搜索框
+      "954", // 支付宝 小程序 置顶图标
+      "1275", // 果酱即将到期
+      "1308", // 支付宝 小程序 横图
+      "1316", // 头部 banner
+      "1332", // 我的页面 横图
+      "1340", // 查快递 小妙招
+      "1391", // 支付宝 小程序 寄包裹
+      "1410", // 导入拼多多、抖音快递
+      "1428", // 幸运号
+      "1524", // 抽现金
+      "1525", // 幸运包裹
+      "1638", // 为你精选了一些商品
+      "1910" // 618促销红包
+    ];
+    for (let i of items) {
+      if (obj.data?.[i]) {
+        delete obj.data[i];
+      }
+    }
+  }
+} else if (url.includes(".guoguo.nbnetflow.ads.show")) {
+  // 我的页面
+  if (obj?.data?.result?.length > 0) {
+    // 29338 寄件会员
+    // 29339 裹酱积分
+    // 33927 绿色能量
+    // 36649 回收旧物
+    obj.data.result = obj.data.result.filter(
+      (i) =>
+        !(
+          i?.materialContentMapper?.adItemDetail ||
+          (i?.materialContentMapper?.bgImg && i?.materialContentMapper?.advRecGmtModifiedTime) ||
+          ["common_header_banner", "entertainment", "kuaishou_banner"]?.includes(i?.materialContentMapper?.group_id) ||
+          ["29338", "29339", "32103", "33927", "36649"]?.includes(i?.id)
+        )
+    );
+  }
+} else if (url.includes(".nbfriend.message.conversation.list")) {
+  // 消息中心
+  if (obj?.data?.data?.length > 0) {
+    obj.data.data = obj.data.data.filter((i) => i?.conversationId?.includes("logistic_message"));
+  }
+} else if (url.includes(".nbpresentation.pickup.empty.page.get")) {
+  // 取件页面
+  if (obj?.data?.result) {
+    let ggContent = obj.data.result.content;
+    if (ggContent?.middle?.length > 0) {
+      ggContent.middle = ggContent.middle.filter(
+        (i) =>
+          ![
+            "guoguo_pickup_empty_page_relation_add", // 添加亲友
+            "guoguo_pickup_helper_feedback", // 反馈组件
+            "guoguo_pickup_helper_tip_view" // 取件小助手
+          ]?.includes(i?.template?.name)
+      );
+    }
+  }
+} else if (url.includes(".nbpresentation.protocol.homepage.get")) {
+  // 首页
+  if (obj?.data?.result?.dataList?.length > 0) {
+    let newLists = [];
+    for (let item of obj.data.result.dataList) {
+      if (item?.type?.includes("kingkong")) {
+        if (item?.bizData?.items?.length > 0) {
+          for (let i of item.bizData.items) {
+            i.rightIcon = null;
+            i.bubbleText = null;
+          }
+        }
+      } else if (item?.type?.includes("icons_scroll")) {
+        // 顶部图标
+        if (item?.bizData?.items?.length > 0) {
+          let newBizs = [];
+          for (let i of item.bizData.items) {
+            const lists = [
+              "618cjhb", // 超级红包
+              "bgxq", // 包裹星球
+              "cncy", // 填字赚现金
+              "cngy", // 免费领水果
+              "cngreen", // 绿色家园
+              "cnhs", // 菜鸟回收
+              "gjjf", // 裹酱积分
+              "jkymd", // 集卡赢免单
+              "ljjq", // 领寄件券
+              "ttlhb", // 天天领红包
+              "xybg" // 幸运包裹
+            ];
+            if (lists?.includes(i?.key)) {
+              continue;
+            }
+            newBizs.push(i);
+          }
+          item.bizData.items = newBizs;
+          for (let i of item.bizData.items) {
+            i.rightIcon = null;
+            i.bubbleText = null;
+          }
+        }
+      } else if (item?.type?.includes("banner_area")) {
+        // 新人福利 幸运抽奖
+        continue;
+      } else if (item?.type?.includes("promotion")) {
+        // 促销活动
+        continue;
+      }
+      newLists.push(item);
+    }
+    obj.data.result.dataList = newLists;
+  }
+}
+
+$done({ body: JSON.stringify(obj) });
