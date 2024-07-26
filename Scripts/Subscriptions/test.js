@@ -31,10 +31,6 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const list = {
   'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //拦截猫
   'Subscriptions': { cm: 'timea', hx: 'hxpda', id: "com.touchbits.subscriptions.iap.pro.yearly", latest: "chxm1023" },  //订阅通
-  'Focos': { cm: 'timea', hx: 'hxpda', id: "com.focos.1w_t4_1w", latest: "chxm1023" },  //Focos
-  'ProKnockOut': { cm: 'timeb', hx: 'hxpda', id: "com.knockout.SVIP.50off", latest: "chxm1023" },  //ProKnockOut
-  'com.teadoku.flashnote': { cm: 'timea', hx: 'hxpda', id: "pro_ios_ipad_mac", latest: "chxm1023" },  //AnkiNote
-  'com.tapuniverse.texteditor': { cm: 'timea', hx: 'hxpda', id: "com.tapuniverse.texteditor.w", latest: "chxm1023" }  //TextEditor
 };
 
 //内购数据变量
