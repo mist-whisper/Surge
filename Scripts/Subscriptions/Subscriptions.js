@@ -4,6 +4,7 @@
 更新日期：2024-07-22
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
+原始地址：https://github.com/chxm1023/Rewrite/blob/main/iTunes.js
 使用声明：⚠️仅供参考，🈲转载与售卖！
 使用说明：如果脚本无效，请先排除是否脚本冲突
 特别说明：此脚本可能会导致App Store无法登录ID
