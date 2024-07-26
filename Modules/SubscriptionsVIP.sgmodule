@@ -8,8 +8,8 @@
 #!category = 会员解锁
 
 [Script]
-# ～ RevenueCat@ddgksf2013
-BuyiTunesVip = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Subscriptions/Subscriptions.js, requires-body=true, max-size=-1, timeout=60
-
+# 订阅通解锁
+# hostname = buy.itunes.apple.com
+Subscriptions = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/Subscriptions/Subscriptions.js
 [MITM]
 hostname = %APPEND% buy.itunes.apple.com
