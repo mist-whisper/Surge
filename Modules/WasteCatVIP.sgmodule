@@ -8,7 +8,7 @@
 #!category = 会员解锁
 
 [Script]
-# 订阅通解锁
+# 拦截猫解锁
 # hostname = buy.itunes.apple.com
 WasteCatVIP = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/WasteCat/WasteCatVIP.js
 [MITM]
