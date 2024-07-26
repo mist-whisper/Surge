@@ -1,4 +1,5 @@
 // 2024-07-26 22:45
+//原始地址：https://github.com/RuCu6/QuanX/blob/main/Scripts/break/caiyun.js
 
 const url = $request.url;
 let header = $request.headers;
