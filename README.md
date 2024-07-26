@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [百度网页去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BaiduSearchWebpage_remove_ads.sgmodule)
 * [Bilibili增强(白色B站)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BiliBiliWhite_remove_ads.sgmodule)
 * [芒果TV会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CNFTP.sgmodule)
-* [菜鸟净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule)
+* [菜鸟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiao_remove_ads.sgmodule)
 * [彩云天气会员](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/CaiyunSVIP.sgmodule)
 * [App解锁合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Collections.sgmodule)
 * [Connectivity_Test](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Connectivity_Test.sgmodule)
@@ -167,11 +167,11 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 菜鸟净化
-> 过滤菜鸟广告
+## 菜鸟去广告
+> 过滤菜鸟广告，移除推广模块
 <table>
   <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiaoads.sgmodule</td>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Cainiao_remove_ads.sgmodule</td>
   </tr>
 </table>
 
