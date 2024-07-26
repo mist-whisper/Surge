@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：订阅通解锁会员
+项目名称：解锁订阅通会员
 更新日期：2024-07-22
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
@@ -30,7 +30,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 
 const list = {
   'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //拦截猫
-  'Subscriptions': { cm: 'timea', hx: 'hxpda', id: "com.touchbits.subscriptions.iap.pro.yearly", latest: "chxm1023" }  //订阅通
+  'Subscriptions': { cm: 'timea', hx: 'hxpda', id: "com.touchbits.subscriptions.iap.pro.yearly", latest: "chxm1023" },  //订阅通
 };
 
 //内购数据变量
