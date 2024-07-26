@@ -1,0 +1,15 @@
+#!name = 拦截猫会员
+#!desc = 解锁拦截猫会员
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = chxm1023
+#!homepage = https://github.com/chxm1023/Rewrite/blob/main/iTunes.js
+#!icon = 
+#!date = 2024-07-24 15:44:57
+#!category = 会员解锁
+
+[Script]
+# 订阅通解锁
+# hostname = buy.itunes.apple.com
+WasteCatVIP = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mist-whisper/Surge/master/Scripts/WasteCat/WasteCatVIP.js
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
