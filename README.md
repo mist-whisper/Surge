@@ -7,6 +7,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 # 模块
 
 * [去广告集合](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AD.sgmodule)
+* [解锁AdGuard Premium](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdGuardPremium.sgmodule)
 * [APP启动页去广告融合版ultra+](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdUltraPlus.sgmodule)
 * [广告拦截重写合集](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdsRewrite.sgmodule)
   <!-- * [广告联盟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Adsense.sgmodule) -->
@@ -72,6 +73,15 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AD.sgmodule</td>
+  </tr>
+</table>
+
+## 解锁AdGuard Premium
+> 解锁AdGuard Premium
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdGuardPremium.sgmodule
+</td>
   </tr>
 </table>
 
