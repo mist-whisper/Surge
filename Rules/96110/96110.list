@@ -1,0 +1,12 @@
+# NAME: 96110
+# AUTHOR: Edward
+# HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules
+# UPDATED: 2024-07-28 15:49:10
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 3
+
+DOMAIN,prpr.96110.cn.com
+DOMAIN-SUFFIX,gjfzpt.cn
+DOMAIN-KEYWORD,96110
