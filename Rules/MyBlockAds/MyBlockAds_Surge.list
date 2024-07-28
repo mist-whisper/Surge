@@ -1,7 +1,7 @@
 # NAME: MyBlockAds
 # AUTHOR: RuCu6
 # HOMEPAGE: https://github.com/RuCu6/QuanX/blob/main/Rules/MyBlockAds.list
-# UPDATED: 2024-07-19 15:15
+# UPDATED: 2024-07-21 21:35
 # 规则数量: 189
 # 不支持的规则数量: 0
 # 已排除的规则数量: 0
@@ -159,7 +159,6 @@ DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
 DOMAIN,ipv4.music.163.com
 DOMAIN,ipv6.music.163.com
-DOMAIN-SUFFIX,163jiasu.com
 DOMAIN,huodong.weibo.cn
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN,badjs.weixinbridge.com
