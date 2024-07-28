@@ -1,3 +1,8 @@
-
+# NAME: IP-API
+# AUTHOR: Edward
+# HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules
+# UPDATED: 2024-07-28 15:49:10
+# DOMAIN: 1
+# TOTAL: 1
 
 DOMAIN,ip-api.com
