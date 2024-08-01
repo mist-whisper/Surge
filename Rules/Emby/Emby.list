@@ -3,11 +3,11 @@
 # HOMEPAGE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Emby/Emby.list
 # HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules/Emby/Emby.list
 # UPDATED: 2024-08-01 22:30:40
-# DOMAIN: 21
+# DOMAIN: 20
 # DOMAIN-KEYWORD: 8
 # DOMAIN-SUFFIX: 44
 # PROCESS-NAME: 1
-# TOTAL: 74
+# TOTAL: 73
 
 DOMAIN,789.123456.al
 DOMAIN,123456.al
@@ -23,7 +23,6 @@ DOMAIN,h2.i109.com
 DOMAIN,vip.baisi.pro
 DOMAIN,di.baisi.pro
 DOMAIN,581658.best
-DOMAIN,plex.tv
 DOMAIN,0570.123456.buzz
 DOMAIN,test.123456.buzz //地平线测速
 DOMAIN,cf.imetyou.top
