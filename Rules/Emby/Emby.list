@@ -10,6 +10,7 @@
 # TOTAL: 71
 
 DOMAIN,789.123456.al
+DOMAIN,123456.al
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
@@ -17,16 +18,19 @@ DOMAIN,dpx1.1110111.top
 DOMAIN,7777777.buzz
 DOMAIN,6666666.buzz
 DOMAIN,i109.com
+DOMAIN,h1.i109.com
+DOMAIN,h2.i109.com
 DOMAIN,vip.baisi.pro
+DOMAIN,di.baisi.pro
 DOMAIN,581658.best
 DOMAIN,plex.tv
+DOMAIN,0570.123456.buzz
+DOMAIN,test.123456.buzz //地平线测速
+DOMAIN,cf.imetyou.top
 
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN,emby.lcloud.wiki
 DOMAIN,notnetflix.cos.cat
-
-DOMAIN-SUFFIX,di.baisi.pro
-DOMAIN-SUFFIX,123456.al
 
 DOMAIN-SUFFIX,285286.xyz
 DOMAIN-SUFFIX,agahk1.jmsooo.com
@@ -77,6 +81,7 @@ DOMAIN-KEYWORD,wtf
 DOMAIN-KEYWORD,dpx
 DOMAIN-KEYWORD,baisi
 DOMAIN-KEYWORD,heisi
+DOMAIN-KEYWORD,dpxemby
 
 DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
