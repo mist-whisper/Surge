@@ -2,12 +2,12 @@
 # AUTHOR: justdoiting Edward
 # HOMEPAGE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Emby/Emby.list
 # HOMEPAGE: https://github.com/mist-whisper/Surge/blob/master/Rules/Emby/Emby.list
-# UPDATED: 2024-07-11 04:01:40
-# DOMAIN: 16
-# DOMAIN-KEYWORD: 11
-# DOMAIN-SUFFIX: 47
+# UPDATED: 2024-08-01 22:30:40
+# DOMAIN: 21
+# DOMAIN-KEYWORD: 8
+# DOMAIN-SUFFIX: 44
 # PROCESS-NAME: 1
-# TOTAL: 71
+# TOTAL: 74
 
 DOMAIN,789.123456.al
 DOMAIN,123456.al
@@ -86,4 +86,5 @@ DOMAIN-KEYWORD,dpxemby
 DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
+
 PROCESS-NAME,com.mb.android
