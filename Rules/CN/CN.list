@@ -1,5 +1,13 @@
-# China Apps
-# homeUrl：https://github.com/Blankwonder/surge-list/blob/master/cn.list
+# NAME: CN
+# AUTHOR: Blankwonder
+# HOMEPAGE: https://github.com/Blankwonder/surge-list/blob/master/cn.list
+# UPDATED: 2024-08-02 01:38:22
+# USER-AGENT: 4
+# DOMAIN-KEYWORD: 6
+# DOMAIN-SUFFIX: 1
+# IP-CIDR: 2
+# TOTAL: 13
+# China 补全
 
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
