@@ -1,12 +1,12 @@
-#!name = 阿里 DNS
+#!name = Ali DNS
 #!desc = 适配阿里 DoH JSON API
 #!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
 #!author = 
-#!homepage = https://github.com/mist-whisper/Surge/edit/master/Modules/Ali-DoQ.sgmodule
+#!homepage = https://github.com/Maasea/sgmodule/blob/master/Alidns.sgmodule
 #!icon = 
-#!date = 2024-08-03 11:43:57
+#!date = 2024-08-03 12:40:57
 #!category = DNS解析
-#!arguments = 阿里DNS:223.5.5.5,请求域名:*,请求类型:1,设备ID:IOS,账户ID,AccessID,Secret
+#!arguments = 阿里DNS:223.5.5.5,请求域名:*,请求类型:1,Device ID:IOS,Account ID,AccessKey ID,AccessKey Secret
 #!arguments-desc = 相关参数说明查阅 阿里云DoH JSON API 文档
 
 
@@ -14,4 +14,4 @@
 {{{请求域名}}}= script:Alidns
 
 [Script]
-Alidns = type=dns,engine=jsc,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Tools/alidns.js,argument="{"HOST":"{{{阿里DNS}}}","UID":"{{{账户ID}}}","ID":"{{{AccessID}}}","SECRET":"{{{Secret}}}","DID":"{{{设备ID}}}","TYPE":"{{{请求类型}}}"}"
+Alidns = type=dns,engine=jsc,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Tools/alidns.js,argument="{"HOST":"{{{阿里DNS}}}","UID":"{{{Account ID}}}","ID":"{{{AccessKey ID}}}","SECRET":"{{{AccessKey Secret}}}","DID":"{{{Device ID}}}","TYPE":"{{{请求类型}}}"}"
