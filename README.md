@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   <!-- * [广告联盟去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Adsense.sgmodule) -->
 * [复写去广告(严格版)](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AdvertisingLite.sgmodule)
 * [Ali-DoQ](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Ali-DoQ.sgmodule)
+* [Ali DNS](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AliDNS.sgmodule)
 * [高德地图去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Amap_remove_ads.sgmodule)
 * [App/小程序广告净化](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AppAds.sgmodule)
 * [百度网页去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/BaiduSearchWebpage_remove_ads.sgmodule)
@@ -124,6 +125,14 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 <table>
   <tr>
     <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Ali-DoQ.sgmodule</td>
+  </tr>
+</table>
+
+## Ali DNS
+> 适配阿里 DoH JSON API
+<table>
+  <tr>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/AliDNS.sgmodule</td>
   </tr>
 </table>
 
