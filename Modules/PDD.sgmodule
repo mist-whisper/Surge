@@ -4,8 +4,8 @@
 #!author = 怎么肥事
 #!homepage = https://github.com/ZenmoFeiShi/Qx/blob/main/Pinduoduo.snippet
 #!icon = 
-#!date = 2024-08-10 09:33
-#!category = 去广告
+#!date = 2024-08-10 15:23
+#!category = 去广告 
 
 [Map Local]
 ^https:\/\/api\.pinduoduo\.com\/search_hotquery data-type=text data="{}" status-code=200
@@ -18,10 +18,20 @@
 
 ^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/personal data-type=text data="{}" status-code=200
 
+^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/my_order_group data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/likes data-type=text data="{}" status-code=200
+
 [Script]
 Pinduoduo = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/philo\/personal\/hub, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js, requires-body=true, max-size=-1, timeout=60
 
 Pinduoduo = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js, requires-body=true, max-size=-1, timeout=60
+
+Pinduoduo = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.pinduoduo.com
