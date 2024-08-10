@@ -1,7 +1,11 @@
-#!name=拼多多净化页面布局
-#!desc=Pinduoduo
-#!author=怎么肥事
-#!update=2024-08-10 09:33
+#!name = 拼多多去广告
+#!desc = 拼多多净化页面布局
+#!openUrl = https://github.com/mist-whisper/Surge/tree/master/Modules
+#!author = 怎么肥事
+#!homepage = https://github.com/ZenmoFeiShi/Qx/blob/main/Pinduoduo.snippet
+#!icon = 
+#!date = 2024-08-10 09:33
+#!category = 去广告
 
 [Map Local]
 ^https:\/\/api\.pinduoduo\.com\/search_hotquery data-type=text data="{}" status-code=200
