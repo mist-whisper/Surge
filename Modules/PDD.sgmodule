@@ -1,0 +1,23 @@
+#!name=拼多多净化页面布局
+#!desc=Pinduoduo
+#!author=怎么肥事
+#!update=2024-08-10 09:33
+
+[Map Local]
+^https:\/\/api\.pinduoduo\.com\/search_hotquery data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/new_chat_group data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up data-type=text data="{}" status-code=200
+
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/personal data-type=text data="{}" status-code=200
+
+[Script]
+Pinduoduo = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/philo\/personal\/hub, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js, requires-body=true, max-size=-1, timeout=60
+
+Pinduoduo = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% api.pinduoduo.com
