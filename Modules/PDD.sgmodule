@@ -5,7 +5,7 @@
 #!homepage = https://github.com/ZenmoFeiShi/Qx/blob/main/Pinduoduo.snippet
 #!icon = 
 #!date = 2024-08-10 15:23
-#!category = 去广告 
+#!category = 去广告
 
 [Map Local]
 ^https:\/\/api\.pinduoduo\.com\/search_hotquery data-type=text data="{}" status-code=200
