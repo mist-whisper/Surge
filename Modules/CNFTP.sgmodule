@@ -89,9 +89,9 @@ cnftp = type=http-response, pattern=^https:\/\/search\.video\.iqiyi\.com\/q\?, s
 cnftp = type=http-response, pattern=^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js, requires-body=true, max-size=-1, timeout=60
 
 # 会员解锁 (国区,美区,平板端)
-MGTV = type=http-request, pattern=^https:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\?, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js, timeout=60
+MGTV = type=http-request, pattern=^https:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\?, script-path=https://raw.githubusercontent.com/mist-whisper/JS/master/MGTV.js, timeout=60
 
-MGTV = type=http-request, pattern=^https:\/\/(mobile|pad|pcc)\.api\.mgtv\.com\/v8\/video\/getSource\?, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js, timeout=60
+MGTV = type=http-request, pattern=^https:\/\/(mobile|pad|pcc)\.api\.mgtv\.com\/v8\/video\/getSource\?, script-path=https://raw.githubusercontent.com/mist-whisper/JS/master/MGTV.js, timeout=60
 
 # 我的页面
 cnftp = type=http-response, pattern=^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js, requires-body=true, max-size=-1, timeout=60
