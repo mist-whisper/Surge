@@ -6,7 +6,7 @@
 #广告
 ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/.+\.json url reject-dict
 #会员
-^http:\/\/(liveinfo|bkliveinfo|playvv)\.ysp\.cctv\.cn\/(playvinfo\?.+|.*) url script-request-header ysp.js
+^http:\/\/(liveinfo|bkliveinfo|playvv)\.ysp\.cctv\.cn\/(playvinfo\?.+|.*) url script-request-header Yangshipin.js
 
 [mitm]
 thostname = *.ysp.cctv.cn, cdn.cmgadx.com
