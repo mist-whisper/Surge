@@ -1,10 +1,10 @@
 # NAME: MyBlockAds
 # AUTHOR: RuCu6
 # HOMEPAGE: https://github.com/RuCu6/QuanX/blob/main/Rules/MyBlockAds.list
-# UPDATED: 2024-07-21 21:35
-# 规则数量: 189
-# 不支持的规则数量: 0
-# 已排除的规则数量: 0
+# UPDATED: 2024-08-08 08:50
+#规则数量:192
+#不支持的规则数量:0
+#已排除的规则数量:0
 
 #-----------------以下为解析后的规则-----------------#
 
@@ -69,9 +69,9 @@ DOMAIN,open.kuaishou.com
 DOMAIN,pagead2.googlesyndication-cn.com
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,sdk.e.qq.com
+DOMAIN,tangram.e.qq.com
 DOMAIN,ws.tapjoyads.com
 DOMAIN,www.googleadservices.com
-DOMAIN,xlog.jd.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.vungle.com
 DOMAIN-SUFFIX,adservice.google.com
@@ -101,6 +101,8 @@ DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32
 IP-CIDR6,2402:db40:5100:1011::5/128
 DOMAIN,api.liquidlink.cn
+DOMAIN,ads.service.kugou.com
+DOMAIN,adserviceretry.kugou.com
 DOMAIN,ad.tencentmusic.com
 DOMAIN,g.koowo.com
 DOMAIN,mobilead.kuwo.cn
@@ -162,6 +164,8 @@ DOMAIN,ipv6.music.163.com
 DOMAIN,huodong.weibo.cn
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN,badjs.weixinbridge.com
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,tong.8888888888.bid
 DOMAIN-KEYWORD,4240585f1fb7266
