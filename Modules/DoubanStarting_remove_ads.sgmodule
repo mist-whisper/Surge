@@ -1,13 +1,11 @@
-#!name=豆瓣去广告
-#!desc=移除开屏广告、各页面信息流广告、首页横幅、搜索填充词。此插件需要IPA签名方可使用，App Store用户请勿使用此插件，务必点击下方署名链接查看详细教程。
-#!author=可莉🅥
-#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/DouBan.png
-#!openUrl=https://apps.apple.com/app/id907002334
-#!tag=去广告, 可莉
-#!system=ios
-#!loon_version=3.2.1(372)
-#!homepage=https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/34bf3aad-7872-497d-b239-198e27e8c84c
-#!date=2024-08-04 22:43:14
+#!name = 豆瓣去广告
+#!desc = 移除开屏广告、各页面信息流广告、首页横幅、搜索填充词。此插件需要IPA签名方可使用，App Store用户请勿使用此插件，务必点击下方署名链接查看详细教程。
+#!author = 可莉🅥
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/DouBan.png
+#!openUrl = https://apps.apple.com/app/id907002334
+#!homepage = https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/34bf3aad-7872-497d-b239-198e27e8c84c
+#!date = 2024-08-04 22:43:14
+#!category = 去广告
 
 [Rule]
 # 拦截HTTPDNS
