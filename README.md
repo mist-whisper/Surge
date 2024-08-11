@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
 * [Connectivity_Test](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Connectivity_Test.sgmodule)
 * [DNSPod-DoH](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DNS-DoH.sgmodule)
 * [Disney+评分](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DisneyPlusRating.sgmodule)
-* [豆瓣去开屏广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DoubanStarting_remove_ads.sgmodule)
+* [豆瓣去广告](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DouBan_remove_ads.sgmodule)
 * [Emby解锁](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/Emby_Unlock.sgmodule)
 * [FIMO相机VIP](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/FIMOVIP.sgmodule)
 * [通用增强](https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/General.sgmodule)
@@ -224,11 +224,11 @@ https://raw.githubusercontent.com/mist-whisper/Surge/master/Surge.conf
   </tr>
 </table>
 
-## 豆瓣去开屏广告
-> 去除豆瓣开屏广告，只能去除开屏，后期还要改duration
+## 豆瓣去广告
+> 移除开屏广告、各页面信息流广告、首页横幅、搜索填充词。此插件需要IPA签名方可使用，App Store用户请勿使用此插件，务必点击下方署名链接查看详细教程。
 <table>
   <tr>
-    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DoubanStarting_remove_ads.sgmodule</td>
+    <td>https://raw.githubusercontent.com/mist-whisper/Surge/master/Modules/DouBan_remove_ads.sgmodule</td>
   </tr>
 </table>
 
