@@ -10,6 +10,8 @@
 [URL Rewrite]
 # 拦截广告下发
 ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch - reject
+# 首页顶部标签
+^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/ url script-response-body https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
 # 我的页面横幅
 ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
