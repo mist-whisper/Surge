@@ -116,7 +116,7 @@ DOMAIN-KEYWORD,asiad.byteactivity,REJECT
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/erebor\/feed_ad data-type=text data="{}" status-code=200
 
 # 电影板块广告
-^https:\/\/m\.douban\.com\/page2\/r96gDPlvw3WwGvh\?halfhill_business=1&halfhill_category=neo2&halfhill_index=1 data-type=text data="{}" status-code=200
+^https:\/\/erebor\.douban\.com\/redirect data-type=text data="{}" status-code=200
 
 # 首页横幅
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/home_banner data-type=text data="{}" status-code=200
