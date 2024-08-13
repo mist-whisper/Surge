@@ -4,7 +4,7 @@
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/DouBan.png
 #!openUrl = https://apps.apple.com/app/id907002334
 #!homepage = https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/34bf3aad-7872-497d-b239-198e27e8c84c
-#!date = 2024-08-04 22:43:14
+#!date = 2024-08-13 03:27:06
 #!category = 去广告
 
 [Rule]
@@ -25,7 +25,7 @@ DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,otheve.beacon.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,qzonestyle.gtimg.cn,REJECT
+# DOMAIN, qzonestyle.gtimg.cn, REJECT // 误杀
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,qzs.qq.com,REJECT
 DOMAIN,rmonitor.qq.com,REJECT
@@ -116,13 +116,15 @@ DOMAIN-KEYWORD,asiad.byteactivity,REJECT
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/erebor\/feed_ad data-type=text data="{}" status-code=200
 
 # 电影板块广告
-^https:\/\/erebor\.douban\.com\/redirect data-type=text data="{}" status-code=200
+^https:\/\/m\.douban\.com\/rexxar\/api\/v\d\/market\/products\/ data-type=text data="{}" status-code=200
+
+^https:\/\/frodo\.douban\.com\/api\/v\d\/movie\/ad data-type=text data="{}" status-code=200
 
 # 首页横幅
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/home_banner data-type=text data="{}" status-code=200
 
 # 搜索填充词
-^https:\/\/frodo\.douban\.com\/api\/v2\/search\/found_words data-type=text data="{}" status-code=200
+^https:\/\/frodo\.douban\.com\/api\/v\d\/search\/found_words data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = %APPEND% api.douban.com, frodo.douban.com
+hostname = %APPEND% api.douban.com, frodo.douban.com, m.douban.com
