@@ -7,85 +7,37 @@
 #!date = 2024-07-01 22:49:01
 #!category = 去广告
 
-[URL Rewrite]
-^https:\/\/media-service\.soulapp\.cn\/api\/app\/cdnSource - reject
-^https:\/\/ad-h5-station-cdn\.soulapp\.cn\/station\/dist\.zip - reject
-# 去除聊天界面再遇见
-^https:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first - reject
-# 去除通讯录右下角机器人图标
-^https:\/\/api-chat\.soulapp\.cn\/addressBook\/showBubblingEnter - reject
-# 去除首次私聊打开去除顶部聊天信息卡片
-^https:\/\/api-user\.soulapp\.cn\/user\/matchRelation\/getChatCard - reject
-# 去除表情推荐
-^https:\/\/api-chat\.soulapp\.cn\/chat\/interact\/getEmojiList - reject
-# 去除我的页面soul币活动推荐
-^https:\/\/increase-openapi\.soulapp\.cn\/increase\/fission\/getHomePageRedIcon - reject
-# 去除首次私聊打开星球交汇小卡片
-^https:\/\/api-chat\.soulapp\.cn\/similar\/post\/intersect\/trigger - reject
-# 去除首次打开私聊界面底部瞬间表情推荐
-^https:\/\/api-chat\.soulapp\.cn\/chat\/guide\/defaultWord - reject
-# 去除聊天输入文字时的gif表情推荐
-^https:\/\/api-chat\.soulapp\.cn\/chat\/emoji\/recommend - reject
-# 去除广告配置
-^https:\/\/ssp\.soulapp\.cn\/api\/ad\/config - reject
-# 去除私聊瞬间小横幅
-^https:\/\/api-a\.soulapp\.cn\/shara\/app\/url - reject
-# 私聊快捷菜单
-^https:\/\/api-chat\.soulapp\.cn\/chat\/quick\/menu - reject
-
 [Map Local]
 ^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}" status-code=200
 
+^https:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first data-type=text data="{}" status-code=200
+
+^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 data-type=text data=" " status-code=200
+
 [Script]
-Soul = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 去除热搜榜
-Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 主页瞬间指导
-Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 去除青少年弹窗
-Soul = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 谁看过我横幅广告
-Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 版本信息
-Soul = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 主页右下角悬浮广告
-Soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
-
-# 去除瞬间礼物榜
 Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 去除私聊限制
-soul = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 星球页面按钮
-soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 星球页面派对顶部派对分类tab
-soul = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 广场顶部tab
-soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v2\/post\/recSquare\/subTabs, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 派对顶部榜单
-soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/chatroom\/calculateSoulList, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 派对页面tab
-soul = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/getRoomTagInfo, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 派对列表中间横幅官方广告
-soul = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 广场顶部tab
-soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/square\/header\/tabs, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-# 个人主页数量提示
-soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/user\/homepage\/metrics, script-path=https://raw.githubusercontent.com/kelv1n1n/script/main/js/soul.js, requires-body=true, max-size=-1, timeout=60
+Soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+
+Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+
+Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v2\/post\/recSquare\/subTabs, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% *.soulapp.cn, 47.110.187.87
+hostname = %APPEND% api-account.soulapp.cn, chat-live.soulapp.cn, api-a.soulapp.cn, api-pay.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, 120.55.55.115, 120.55.62.124, 121.196.203.183, 47.96.20.45, 47.98.54.106, 118.31.112.221, 8.210.3.170, 47.75.72.47, post.soulapp.cn, api-user.soulapp.cn, ssp.soulapp.cn, 47.110.187.87
